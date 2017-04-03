@@ -1,0 +1,266 @@
+
+
+
+div.title_bar_pro01{
+	background-color: #3D9EC7;
+}
+
+div.title_bar_icon_pro01{
+	background-image: url(../images/menu2.png);
+}
+
+div#content01{
+
+}
+
+p#text01{
+	padding: 44px 0 20px 44px;
+}
+
+div#content02{
+
+}
+
+p#text02{
+  padding: 44px;
+}
+
+div#content03{
+	height: 50px;
+
+	position: relative;
+}
+
+div#content04{
+	height: 160px;
+
+}
+
+div#iconarea04{
+	width: 50%;
+	height: 100%;
+	float: left;
+
+}
+
+div.icon_wrapper04{
+	width: 30%;
+
+	height: 100%;
+	float: left;
+	position: relative;
+}
+
+div.icon04{
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: auto;
+	width: 100px;
+	height: 100px;
+	background-image: url(../images/drop_oval.png);
+	background-size: contain;
+}
+
+div#icon_left04{
+	top: 70px;
+	bottom: 0;
+}
+
+div#icon_center04{
+	top: 0;
+	bottom: 70px;
+}
+
+div#icon_right04{
+	top: 70px;
+	bottom: 0;
+}
+
+p#text03{
+	margin: 0;
+	width: 50%;
+	height: 100%;
+	float: left;
+}
+
+div#content05{
+	height: 50px;
+
+	position: relative;
+}
+
+div#content06{
+
+	height: 410px;
+}
+
+p#text04{
+	height: 100%;
+	width: 70%;
+
+	float: left;
+	margin: 0;
+	padding: 44px;
+}
+
+div#iconarea06{
+	height: 100%;
+	width: 30%;
+
+	float: left;
+}
+
+div.icon_wrapper06{
+
+	width: 100%;
+	height: 33%;
+	position: relative;
+}
+
+div.icon06{
+	background-image: url(../images/star.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 85px;
+	height: 85px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+
+div#icon_top06{
+	right: 80px;
+	left: 0;
+}
+
+div#icon_center06{
+	right: 0;
+	left: 80px;
+}
+
+div#icon_bottom06{
+	right: 80px;
+	left: 0;
+}
+
+div#content07{
+	height: 50px;
+
+	position: relative;
+}
+
+div#content08{
+
+	height: 440px;
+}
+
+div#iconarea08{
+	height: 100%;
+	width: 30%;
+
+	float: left;
+}
+
+div.icon_wrapper08{
+	width: 100%;
+	height: 33%;
+
+	position: relative;
+}
+
+div.icon08{
+	width: 80px;
+	height: 70px;
+	background-image: url(../images/love.png);
+	background-size: contain;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+
+p#text05{
+	height: 100%;
+	width: 70%;
+  margin: 0;
+	float: left;
+	padding: 60px;
+}
+
+div#content09{
+	height: 50px;
+
+	position: relative;
+}
+
+div#content10{
+
+	height: 420px;
+}
+
+p#text06{
+	height: 100%;
+  margin: 0;
+	width: 75%;
+
+	float: left;
+	padding: 44px;
+}
+
+div#iconarea10{
+	height: 100%;
+	width: 25%;
+
+	float: left;
+	position: relative;
+}
+
+div#icon10{
+	width: 200px;
+	height: 200px;
+	background-image: url(../images/present_oval.png);
+	background-size: contain;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+
+
+
+div.icon_navi{
+	width: 50px;
+	height: 40px;
+	background-image: url(../images/navigation.png);
+	background-size: contain;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+
+div#icon_navi03{
+	transform: rotate(80deg);
+}
+
+div#icon_navi05{
+	transform: rotate(180deg);
+}
+
+div#icon_navi07{
+	transform: rotate(80deg);
+}
+
+div#icon_navi09{
+	transform: rotate(180deg);
+}

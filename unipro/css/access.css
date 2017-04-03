@@ -1,0 +1,33 @@
+
+
+div.title_bar_access{
+	background-color: #EAC200;
+}
+
+div.title_bar_icon_access{
+	background-image: url(../images/menu4.png);
+}
+
+h2.access_subhead{
+  text-align: center;
+  padding: 30px 0 10px 0;
+	font-size: 20px;;
+	color: #F56151;
+}
+
+
+
+p.access_text{
+  text-align: center;
+  padding: 10px 0 10px 0;
+	font-size: 28px;
+}
+
+div.map_image{
+	background-image: url(../images/map.png);
+	width: 60%;
+	height: 400px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+}

@@ -1,0 +1,168 @@
+
+div.title_bar_qa{
+	background-color: #f180a8;
+}
+
+div.title_bar_icon_qa{
+	background-image: url(../images/menu5.png);
+}
+
+p#intr{
+  margin: 40px 0 40px 40px;
+}
+
+div.q-wrapper{
+  height: 60px;
+
+  margin-bottom: 50px;
+}
+
+div.a-wrapper01 {
+	height: 170px;
+
+  margin-bottom: 50px;
+}
+
+div.a-wrapper02{
+	height: 320px;
+
+  margin-bottom: 50px;
+}
+
+div.a-wrapper03{
+	height: 150px;
+
+	margin-bottom: 50px;
+}
+
+div.a-wrapper04{
+	height: 150px;
+
+  margin-bottom: 50px;
+}
+
+div.q{
+  background-color: #57F1B2;
+  width: 70%;
+  display: inline-block;
+  float: left;
+  height: 100%;
+	position: relative;
+}
+
+div.a{
+  background-color: #FF8FB7;
+  width: 70%;
+  display: inline-block;
+  float: right;
+  height: 100%;
+	position: relative;
+}
+
+
+
+p.q_text{
+	width: 80%;
+	float: left;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	display: inline-block;
+	padding: 20px 0;
+}
+
+p.a_text{
+	width: 85%;
+
+	float: left;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	display: inline-block;
+	padding: 20px 0;
+}
+
+div.q_iconarea{
+  height: 100%;
+  width: 20%;
+  float: left;
+	position: relative;
+	display: inline-block;
+}
+
+div.a_iconarea{
+  height: 100%;
+  width: 15%;
+  float: left;
+	position: relative;
+	display: inline-block;
+}
+
+div.qa_icon{
+  background-size: contain;
+  width: 50px;
+  height: 50px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	margin: auto;
+}
+
+div.q_icon{
+	background-image: url(../images/q.png);
+}
+
+div.a_icon{
+	background-image: url(../images/a.png);
+}
+
+div.triangle_q{
+	width: 0;
+	height: 0;
+	border-left: 30px solid #57F1B2;
+	border-top: 30px solid transparent;
+	border-bottom: 30px solid transparent;
+	display: inline-block;
+}
+
+div.triangle_a01{
+	width: 0;
+	height: 0;
+	border-right: 50px solid #FF8FB7;
+	border-top: 85px solid transparent;
+	border-bottom: 85px solid transparent;
+	float: right;
+}
+
+div.triangle_a02{
+	width: 0;
+	height: 0;
+	border-right: 80px solid #FF8FB7;
+	border-top: 160px solid transparent;
+	border-bottom: 160px solid transparent;
+	float: right;
+}
+
+
+div.triangle_a03{
+	width: 0;
+	height: 0;
+	border-right: 50px solid #FF8FB7;
+	border-top: 75px solid transparent;
+	border-bottom: 75px solid transparent;
+	float: right;
+}
+
+
+div.triangle_a04{
+	width: 0;
+	height: 0;
+	border-right: 45px solid #FF8FB7;
+	border-top: 75px solid transparent;
+	border-bottom: 75px solid transparent;
+	float: right;
+}
