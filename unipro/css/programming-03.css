@@ -1,0 +1,22 @@
+
+
+div.title_bar_pro03{
+	background-color: #3D9EC7;
+}
+
+div.title_bar_icon_pro03{
+	background-image: url(../images/menu2.png);
+}
+
+p#intr{
+	padding:40px 0 30px 40px;
+}
+
+h2.subhead{
+  padding-left: 10px;
+  color: #1E7296;
+}
+
+p.text{
+	padding:10px 0 30px 30px;
+}
