@@ -425,22 +425,22 @@ div#navsm ul li:hover a::after {
 #dropmenu li:hover ul li:last-child a{
 }
 
-a#mainmenu_text06{
+/*a#mainmenu_text06{
 	color: gray;
-}
+}*/
 
 #dropmenu li:hover a#mainmenu_text06{
-	color: gray;
+	color: #F29950;
 }
 
-a#mainmenu_text06::before{
+/*a#mainmenu_text06::before{
 	content:"Comingsoon!";
 	font-size: 10px;
 	position: absolute;
 	top: -3%;
 	left: 11%;
 	color: gray;
-}
+}*/
 /*new_navsmここまで*/
 
 
@@ -723,6 +723,7 @@ div.title_bar{
 
 div.title_bar_icon{
 	background-size: contain;
+	background-repeat: no-repeat;
 	width: 90px;
 	height: 90px;
 	position: absolute;
@@ -785,4 +786,48 @@ footer {
 	text-align: center;
 	vertical-align: middle;
 	background-color: white;
+}
+
+/*Responsive*/
+
+@media screen and (max-width:425px) {
+    /*　画面サイズが425pxまではここを読み込む　*/
+		p#entry_text{
+			font-size: 14px;
+		}
+		div.title_bar{
+			height: 60px;
+		}
+		div.title_bar_icon{
+			width: 45px;
+			height: 45px;
+			left: 20px;
+		}
+		h1.title_bar_text {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    line-height: 60px;
+    left: 74px;
+    color: rgba(248,248,248,1);
+		font-size: 12px;
+		}
+		div.pankuzu{
+			height: 20px;
+			line-height: 20px;
+		}
+		div.triangle_pankuzu{
+			border-left: 12px solid #F56151;
+			border-top: 10px solid transparent;
+			border-bottom: 10px solid transparent;
+		}
+		div.pankuzu p{
+			font-size: 8px;
+			left: 10px;
+		}
+}
+
+@media screen and (min-width:426px) and ( max-width:768px) {
+    /*　画面サイズが426pxから768pxまではここを読み込む　*/
 }

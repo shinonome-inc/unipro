@@ -104,3 +104,14 @@ div.menu_panel_img > a{
   text-decoration: none;
   text-indent:-999px;
 }
+
+/*Responsive*/
+
+@media screen and (max-width:425px) {
+    /*　画面サイズが425pxまではここを読み込む　*/
+
+}
+
+@media screen and (min-width:426px) and ( max-width:768px) {
+    /*　画面サイズが426pxから768pxまではここを読み込む　*/
+}

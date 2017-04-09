@@ -166,3 +166,22 @@ div.triangle_a04{
 	border-bottom: 75px solid transparent;
 	float: right;
 }
+
+/*Responsive*/
+
+@media screen and (max-width:425px) {
+    /*　画面サイズが425pxまではここを読み込む　*/
+		p#intr{
+			font-size: 14px;
+		}
+		p.q_text{
+			font-size: 12px;
+		}
+		p.a_text{
+			font-size: 12px;
+		}
+}
+
+@media screen and (min-width:426px) and ( max-width:768px) {
+    /*　画面サイズが426pxから768pxまではここを読み込む　*/
+}

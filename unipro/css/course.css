@@ -187,3 +187,40 @@ div#subhead_bar_thing{
 p.cal{
 	margin: 0 auto;
 }
+
+/*Responsive*/
+
+@media screen and (max-width:425px) {
+    /*　画面サイズが425pxまではここを読み込む　*/
+		h3.subhead{
+			font-size: 24px;
+		}
+		p#about_text01{
+			font-size: 14px;
+		}
+		p#about_text01 br.br_pc{
+			display: none;
+		}
+		p#about_text02{
+			font-size: 14px;
+		}
+		p#about_text02 br.br_pc{
+			display: none;
+		}
+		p.intr{
+			font-size: 14px;
+		}
+		p.course_text{
+			font-size: 14px;
+		}
+		p#care_text{
+			font-size: 14px;
+		}
+		p.thing_text{
+			font-size: 14px;
+		}
+}
+
+@media screen and (min-width:426px) and ( max-width:768px) {
+    /*　画面サイズが426pxから768pxまではここを読み込む　*/
+}

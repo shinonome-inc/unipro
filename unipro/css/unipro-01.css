@@ -84,10 +84,11 @@ h2.subhead{
 }
 
 
+/*Responsive*/
 
-@media screen and (max-width:767px) {
-    /*　画面サイズが480pxからはここを読み込む　*/
-.text br{
+@media screen and (max-width:425px) {
+    /*　画面サイズが425pxまではここを読み込む　*/
+.text br.br_pc{
   display: none;
 }
 p#uni01_text{
@@ -105,6 +106,10 @@ p#intr span{
   font-size: 18px;
 }
 div.item{
-  height: 480px;
+  height: 390px;
 }
+}
+
+@media screen and (min-width:426px) and ( max-width:768px) {
+    /*　画面サイズが426pxから768pxまではここを読み込む　*/
 }

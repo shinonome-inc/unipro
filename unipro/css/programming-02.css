@@ -109,7 +109,7 @@ div.main02_imagearea{
 	background-color: #F1C674;
 	height: 100%;
 	width: 30%;
-	float: left;
+	float: right;
 	position: relative;
 }
 
@@ -117,7 +117,7 @@ div.main02_article{
 	background-color: #C1E2F0;
 	height: 100%;
 	width: 70%;
-	float: left;
+	float: right;
 }
 
 div.main02_title{
@@ -159,4 +159,131 @@ div#main01_icon{
 	left: 0;
 	margin: auto;
 
+}
+
+/*Responsive*/
+
+@media screen and (max-width:425px) {
+    /*　画面サイズが425pxまではここを読み込む　*/
+		p#intr{
+			font-size: 14px;
+		}
+		p.text{
+			font-size: 12px;
+			line-height: 24px;
+		}
+		p.text br.br_pc{
+			display: none;
+		}
+		h2.main01_title_text{
+			font-size: 20px;
+		}
+		h2.main02_title_text{
+			font-size: 20px;
+		}
+		div#main01{
+			height: 600px;
+		}
+		div#main02{
+			height: 600px;
+		}
+		div.main01_article{
+			width: 100%;
+			height: 400px;
+		}
+		div.main02_article{
+			width: 100%;
+			height: 400px;
+		}
+		div.main01_imagearea{
+			width: 100%;
+			height: 200px;
+		}
+		div.main02_imagearea{
+			width: 100%;
+			height: 200px;
+		}
+		p#main01_text{
+			padding: 0 20px 20px 20px;
+			margin: 0;
+		}
+		p#main02_text{
+			padding: 0 20px 20px 20px;
+			margin: 0;
+		}
+		h2.main01_title_text{
+			margin: 0;
+		}
+		div.main01_title{
+			margin: 30px;
+		}
+		h2.main02_title_text{
+			margin: 0;
+		}
+		div.main02_title{
+			margin: 30px;
+		}
+
+}
+
+@media screen and (min-width:426px) and ( max-width:768px) {
+    /*　画面サイズが426pxから768pxまではここを読み込む　*/
+		p#intr{
+			font-size: 14px;
+		}
+		p.text{
+			font-size: 12px;
+			line-height: 24px;
+		}
+		p.text br.br_pc{
+			display: none;
+		}
+		h2.main01_title_text{
+			font-size: 20px;
+		}
+		h2.main02_title_text{
+			font-size: 20px;
+		}
+		div#main01{
+			height: 600px;
+		}
+		div#main02{
+			height: 600px;
+		}
+		div.main01_article{
+			width: 100%;
+			height: 400px;
+		}
+		div.main02_article{
+			width: 100%;
+			height: 400px;
+		}
+		div.main01_imagearea{
+			width: 100%;
+			height: 200px;
+		}
+		div.main02_imagearea{
+			width: 100%;
+			height: 200px;
+		}
+		p#main01_text{
+			padding: 0 20px 20px 20px;
+			margin: 0;
+		}
+		p#main02_text{
+			padding: 0 20px 20px 20px;
+			margin: 0;
+		}
+		h2.main01_title_text{
+			margin: 0;
+		}
+		div.main01_title{
+			margin: 30px;
+		}
+		h2.main02_title_text{
+			margin: 0;
+		}
+		div.main02_title{
+			margin: 30px;
+		}
 }
