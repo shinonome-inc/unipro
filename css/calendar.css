@@ -209,7 +209,22 @@ p#cal_subintr{
 
 div.calendar-container {
  position: relative;
- width: 50%;
  display: inline-block;
  float: left;
 　}
+
+/*Responsive*/
+
+@media screen and (max-width:425px) {
+    /*　画面サイズが425pxまではここを読み込む　*/
+		p#cal_care{
+			font-size: 14px;
+		}
+		p#cal_subintr{
+			font-size: 14px;
+		}
+}
+
+@media screen and (min-width:426px) and ( max-width:768px) {
+    /*　画面サイズが426pxから768pxまではここを読み込む　*/
+}
