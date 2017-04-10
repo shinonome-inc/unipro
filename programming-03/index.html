@@ -12,15 +12,10 @@
     <script src="../js/main.js"></script>
     <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <script>
- (function(i,s,o,g,r,a,m){i[‘GoogleAnalyticsObject’]=r;i[r]=i[r]||function(){
- (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
- m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
- })(window,document,‘script’,’https://www.google-analytics.com/analytics.js','ga');
-
- ga(‘create’, ‘UA-91313567-1’, ‘auto’);
- ga(‘send’, ‘pageview’);
-
-</script>
+     (function(i,s,o,g,r,a,m){i[‘GoogleAnalyticsObject’]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,‘script’,’https://www.google-analytics.com/analytics.js','ga');
+     ga(‘create’, ‘UA-91313567-1’, ‘auto’);
+     ga(‘send’, ‘pageview’);
+    </script>
   </head>
   <body>
     <div>
@@ -98,6 +93,23 @@
             </div>
             <!-- new_navsmここまで -->
           </nav>
+          <!-- mobile_headerここから -->
+          <div id="mobile_header">
+            <a href="../">
+              <div id="mobile_header_logo">
+                <div id="mobile_header_logo_image">
+
+                </div>
+                <div id="mobile_header_logo_text">
+                  ユニプロ
+                </div>
+                <div class="clear">
+
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- mobile_headerここまで -->
         </div>
       </header>
       <div id="top_content_page">
@@ -123,55 +135,79 @@
           </div>
           <!-- ページコンテンツ -->
           <p class="text" id="intr">
-            小学生の習い事と聞いて思い浮かぶものは何でしょうか？<br class="br_pc">
-            「水泳」「ピアノ」「英会話」など定番なものから様々な習い事がありますよね。<br class="br_pc">
-            実際、これらの習い事は人気ランキングの上位10位以内に属するものです。（リクルート調べ）<br class="br_pc">
-            ところが最近、<span class="black">ここにある習い事がラインクイン</span>するようになってきました。<br class="br_pc">
-            それが<span class="blue">『プログラミング』</span>です！<br class="br_pc">
-            では今なぜプログラミングが流行っているのか。<br class="br_pc">
-            ここでは<span class="red">プログラミングがなぜ今世間で注目されているのか</span>について説明していきます。
+            小学生の習い事と聞いて思い浮かぶものは何でしょうか？<br class="br_pc"><br class="br_mobile">
+            「水泳」「ピアノ」「英会話」など定番なものから<br class="br_mobile">様々な習い事がありますよね。<br class="br_pc">
+            実際、これらの習い事は<br class="br_mobile">人気ランキングの上位10位以内に属するものです。<br class="br_mobile">（リクルート調べ）<br class="br_pc"><br class="br_mobile">
+            ところが最近、<span class="black">ここにある習い事がラインクイン</span>する<br class="br_mobile">ようになってきました。<br class="br_pc">
+            それが<span class="blue">『プログラミング』</span>です！<br class="br_pc"><br class="br_mobile">
+            では今なぜプログラミングが流行っているのか。<br class="br_pc"><br class="br_mobile">
+            ここでは<span class="red">プログラミングがなぜ今世間で<br class="br_mobile">注目されているのか</span>について説明していきます。
           </p>
           <h2 class="subhead">
             プログラミングが必修化!?
           </h2>
           <p class="text">
-            プログラミングが現在注目されている理由として<br class="br_pc">
-            <span class="red">「2020年度から小学校におけるプログラミング教育を必修化する」</span><br class="br_pc">
-            という文部科学省の発表が挙げられます。<br class="br_pc"><br class="br_pc">
-            これは小学生のうちから<span class="blue">「プログラミング的思考」</span>を養うことが主な目的とされています。<br class="br_pc"><br class="br_pc">
-            『小学校段階における論理的思考力や創造性、問題解決能力等の育成とプログラミング教育に関する有識者会議』<br class="br_pc">
-            において以下のような発言をしています。<br class="br_pc">
-            「プログラミング教育とは、子供たちに、<br class="br_pc">コンピュータに意図した処理を行うよう指示することができるということを体験させながら、<br class="br_pc">
-            将来どのような職業に就くとしても、<span class="red">時代を超えて普遍的に求められる力</span>としての<br class="br_pc">
-            <span class="blue">『プログラミング的思考』</span>などを育むことであり、コーディングを覚えることが目的ではない」<br class="br_pc">
-            （出典：文部科学省HPより）<br class="br_pc"><br class="br_pc">
-            つまり、政府が実施しようとしているプログラミング教育はただ文字をずらずらと並べる<br class="br_pc">いわゆるコーディングの知識を身に付けることが
-            目的ではないということです。<br class="br_pc">
-            プログラミング的思考の意味としてはコンピュータにわかるようにプログラムをするための思考のことをいうのですが、<br class="br_pc">
-            ここでいうプログラミング的思考はコンピュータにわかりやすいようにプログラミングするための<span class="blue">論理的思考力</span>を育てることが<br class="br_pc">
-            プログラミング教育を行うことができるということを言っています。<br class="br_pc">
-            また、プログラミングをすることで必ず起きるエラーを解決してくことで、<span class="red">問題解決能力</span>を育てることもできます。<br class="br_pc">
-            以上が<span class="red">プログラミング教育を小学校から必修化</span>にする主な目的といえます。
+            プログラミングが現在注目されている理由として<br class="br_pc"><br class="br_mobile">
+            <span class="red">「2020年度から小学校における<br class="br_mobile">プログラミング教育を必修化する」</span><br class="br_pc"><br class="br_mobile">
+            という文部科学省の発表が挙げられます。<br class="br_pc"><br class="br_pc"><br class="br_mobile">
+            これは小学生のうちから<span class="blue">「プログラミング的思考」</span><br class="br_mobile">を養うことが主な目的とされています。<br class="br_pc"><br class="br_pc"><br class="br_mobile">
+            『小学校段階における論理的思考力や創造性、<br class="br_mobile">問題解決能力等の育成とプログラミング教育に関する<br class="br_mobile">有識者会議』<br class="br_pc">
+            において以下のような発言をしています。<br class="br_pc"><br class="br_mobile">
+            「プログラミング教育とは、子供たちに、<br class="br_pc">コンピュータに<br class="br_mobile">意図した処理を行うよう指示することができるということを<br class="br_mobile">体験させながら、<br class="br_pc">
+            将来どのような職業に就くとしても、<br class="br_mobile"><span class="red">時代を超えて普遍的に求められる力</span>としての<br class="br_pc"><br class="br_mobile">
+            <span class="blue">『プログラミング的思考』</span>などを育むことであり、<br class="br_mobile">コーディングを覚えることが目的ではない」<br class="br_pc"><br class="br_mobile">
+            （出典：文部科学省HPより）<br class="br_pc"><br class="br_pc"><br class="br_mobile">
+            つまり、政府が実施しようとしているプログラミング教育は<br class="br_mobile">ただ文字をずらずらと並べる<br class="br_pc">いわゆるコーディングの知識を<br class="br_mobile">身に付けることが
+            目的ではないということです。<br class="br_pc"><br class="br_mobile">
+            プログラミング的思考の意味としてはコンピュータにわかるよう<br class="br_mobile">にプログラムをするための思考のことをいうのですが、<br class="br_pc"><br class="br_mobile">
+            ここでいうプログラミング的思考はコンピュータにわかりやすい<br class="br_mobile">ようにプログラミングするための<span class="blue">論理的思考力</span>を育てる<br class="br_mobile">ことが<br class="br_pc">
+            プログラミング教育を行うことができるということを<br class="br_mobile">言っています。<br class="br_pc">
+            また、プログラミングをすることで必ず起きる<br class="br_mobile">エラーを解決してくことで、<span class="red">問題解決能力</span>を育てること<br class="br_mobile">もできます。<br class="br_pc">
+            以上が<span class="red">プログラミング教育を<br class="br_mobile">小学校から必修化</span>にする主な目的といえます。
           </p>
           <h2 class="subhead">
             プログラミングはどうやって勉強する？
           </h2>
           <p class="text">
-            ここまで小学校でプログラミングが必修化し、プログラミング的思考力を養うことで育てられる能力について説明しました。<br class="br_pc">
-            では、<span class="black">プログラミング的思考力はどのようなことをすれば養える</span>のでしょうか？<br class="br_pc">
-            ここで注目されているのが<span class="black">Scratch</span>です！<br class="br_pc">
-            ユニプロが扱うScratchはゲーム感覚でプログラミングを学ぶことができ、<br class="br_pc"><span class="blue">わかりやすくプログラミングを学ぶ</span>ことができます！
+            ここまで小学校でプログラミングが必修化し、<br class="br_mobile">プログラミング的思考力を養うことで育てられる能力について<br class="br_mobile">説明しました。<br class="br_pc">
+            では、<span class="black">プログラミング的思考力は<br class="br_mobile">どのようなことをすれば養える</span>のでしょうか？<br class="br_pc"><br class="br_mobile">
+            ここで注目されているのが<span class="black">Scratch</span>です！<br class="br_pc"><br class="br_mobile">
+            ユニプロが扱うScratchはゲーム感覚でプログラミングを学ぶ<br class="br_mobile">ことができ、<br class="br_pc"><span class="blue">わかりやすくプログラミングを学ぶ</span>ことができます！
           <br class="br_pc"><br class="br_pc">
-            このように小学校からのプログラミング教育必修化が決定し、また、IT化が進む現代において、<br class="br_pc">
-            <span class="blue">プログラミング的思考力</span>は<span class="red">重要なもの</span>として見なされるようになってきているのです。
+            このように小学校からのプログラミング教育<br class="br_mobile">必修化が決定し、また、IT化が進む現代において、<br class="br_pc"><br class="br_mobile">
+            <span class="blue">プログラミング的思考力</span>は<span class="red">重要なもの</span>として<br class="br_mobile">見なされるようになってきているのです。
           </p>
           <div class="entry_btn">
             <a id="to_calendar" href="../calendar/"><p id="entry_text">お申し込みはコチラ ＞</p></a>
           </div>
+          <!-- ハンバーガーメニューここから -->
+          <div id="ham_menu_wrapper">
+            <input id="ham_menu_cb" type="checkbox" value="off">
+            <label id="ham_menu_icon" for="ham_menu_cb">≡</label>
+            <label id="ham_menu_background" for="ham_menu_cb"></label>
+            <div id="ham_menu_active">
+                <ul>
+                    <li class="ham_upper_list"><a href="#">ユニプロとは</a></li>
+                    <li class="ham_lower_list"><a href="../unipro-01/">・Raspberry Pi(ラズベリーパイ)について</a></li>
+                    <li class="ham_lower_list"><a href="../unipro-02/">・スクラッチとは</a></li>
+                    <li class="ham_upper_list"><a href="#">プログラミングとは</a></li>
+                    <li class="ham_lower_list"><a href="../programming-01/">・プログラマーにならないのにプログラミングって必要？</a></li>
+                    <li class="ham_lower_list"><a href="../programming-02/">・プログラミングって難しいの？お金が掛かるの?</a></li>
+                    <li class="ham_lower_list"><a href="../programming-03/">・なぜ今プログラミングが流行っている？</a></li>
+                    <li class="ham_upper_list"><a href="#">講座について</a></li>
+                    <li class="ham_lower_list"><a href="../course/">・講座内容</a></li>
+                    <li class="ham_lower_list"><a href="../calendar/">・開催カレンダー</a></li>
+                    <li class="ham_upper_list"><a href="../access/">アクセス</a></li>
+                    <li class="ham_upper_list"><a href="../qa/">Q&A</a></li>
+                    <li class="ham_upper_list"><a href="https://www.facebook.com/pg/UniproSchool/">運営者日記</a></li>
+                </ul>
+            </div>
+          </div>
+          <!-- ハンバーガーメニューここまで -->
         </div>
       </div>
       <footer id="footer">
-        Copyright © 2017 UniPro All Rights Reserved.
+        Copyright © <br class="br_mobile">2017 UniPro All Rights Reserved.
       </footer>
     </div>
   </body>

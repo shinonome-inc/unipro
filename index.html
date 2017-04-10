@@ -24,15 +24,10 @@
   <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <script src="./bootstrap/js/bootstrap.min.js"></script>
   <script>
- (function(i,s,o,g,r,a,m){i[‘GoogleAnalyticsObject’]=r;i[r]=i[r]||function(){
- (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
- m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
- })(window,document,‘script’,’https://www.google-analytics.com/analytics.js','ga');
-
- ga(‘create’, ‘UA-91313567-1’, ‘auto’);
- ga(‘send’, ‘pageview’);
-
-</script>
+   (function(i,s,o,g,r,a,m){i[‘GoogleAnalyticsObject’]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,‘script’,’https://www.google-analytics.com/analytics.js','ga');
+   ga(‘create’, ‘UA-91313567-1’, ‘auto’);
+   ga(‘send’, ‘pageview’);
+  </script>
 </head>
 <body>
   <div id="logo">
@@ -139,6 +134,23 @@
           </div>
           <!-- new_navsmここまで -->
         </nav>
+        <!-- mobile_headerここから -->
+        <div id="mobile_header">
+          <a href="../">
+            <div id="mobile_header_logo">
+              <div id="mobile_header_logo_image">
+
+              </div>
+              <div id="mobile_header_logo_text">
+                ユニプロ
+              </div>
+              <div class="clear">
+
+              </div>
+            </div>
+          </a>
+        </div>
+        <!-- mobile_headerここまで -->
       </div>
     </header>
     <div id="top_content">
@@ -204,7 +216,7 @@
                     <a href="./programming-01/">プログラマーにならないのにプログラミングって必要？</a>
                   </div>
                   <div class="menu_panel_submenu_item02 menu_panel_submenu_item">
-                    <a href="./programming02/">プログラミングって難しいの？お金が掛かるの?</a>
+                    <a href="./programming-02/">プログラミングって難しいの？お金が掛かるの?</a>
                   </div>
                   <div class="menu_panel_submenu_item02 menu_panel_submenu_item">
                     <a href="./programming-03/">なぜ今プログラミングが流行っている？</a>
@@ -250,10 +262,34 @@
             </div>
           </div>
         </div>
+        <!-- ハンバーガーメニューここから -->
+        <div id="ham_menu_wrapper">
+          <input id="ham_menu_cb" type="checkbox" value="off">
+          <label id="ham_menu_icon" for="ham_menu_cb">≡</label>
+          <label id="ham_menu_background" for="ham_menu_cb"></label>
+          <div id="ham_menu_active">
+              <ul>
+                  <li class="ham_upper_list"><a href="#">ユニプロとは</a></li>
+                  <li class="ham_lower_list"><a href="./unipro-01/">・Raspberry Pi(ラズベリーパイ)について</a></li>
+                  <li class="ham_lower_list"><a href="./unipro-02/">・スクラッチとは</a></li>
+                  <li class="ham_upper_list"><a href="#">プログラミングとは</a></li>
+                  <li class="ham_lower_list"><a href="./programming-01/">・プログラマーにならないのにプログラミングって必要？</a></li>
+                  <li class="ham_lower_list"><a href="./programming-02/">・プログラミングって難しいの？お金が掛かるの?</a></li>
+                  <li class="ham_lower_list"><a href="./programming-03/">・なぜ今プログラミングが流行っている？</a></li>
+                  <li class="ham_upper_list"><a href="#">講座について</a></li>
+                  <li class="ham_lower_list"><a href="./course/">・講座内容</a></li>
+                  <li class="ham_lower_list"><a href="./calendar/">・開催カレンダー</a></li>
+                  <li class="ham_upper_list"><a href="./access/">アクセス</a></li>
+                  <li class="ham_upper_list"><a href="./qa/">Q&A</a></li>
+                  <li class="ham_upper_list"><a href="https://www.facebook.com/pg/UniproSchool/">運営者日記</a></li>
+              </ul>
+          </div>
+        </div>
+        <!-- ハンバーガーメニューここまで -->
       </div>
     </div>
     <footer id="footer">
-      Copyright &copy; 2017 UniPro All Rights Reserved.
+      Copyright &copy; <br class="br_mobile">2017 UniPro All Rights Reserved.
     </footer>
   </div>
 </body>
