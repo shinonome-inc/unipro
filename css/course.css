@@ -97,7 +97,7 @@ div.course_icon_wrapper:before{
 }
 
 div.course_iconarea{
-	width: 30%;
+	width: 20%;
 	height: 100%;
 	float: left;
 	position: relative;
@@ -105,7 +105,8 @@ div.course_iconarea{
 }
 
 div.course_article{
-	width: 85%;
+	width: 80%;
+	float: left;
 }
 
 h4.course_title{
@@ -129,10 +130,9 @@ div#care_text_wrapper{
 }
 
 p#care_text{
-  margin: 0 auto;
-  width: 604px;
   padding-bottom: 60px;
   line-height: 30px;
+	text-align: center;
 }
 
 div#thing_wrapper{
@@ -188,10 +188,283 @@ p.cal{
 	margin: 0 auto;
 }
 
+br.br_mobile{
+	display: none;
+}
+
+br.br_tablet{
+	display: none;
+}
+
 /*Responsive*/
 
 @media screen and (max-width:425px) {
     /*　画面サイズが425pxまではここを読み込む　*/
+		p#about_text01{
+			padding: 0 20px;
+		}
+		p#about_text02{
+			padding: 20px;
+		}
+		p.intr{
+			padding: 20px;
+		}
+		br.br_mobile{
+			display: block;
+		}
+		br.br_tablet{
+			display: none;
+		}
+		br.br_pc{
+			display: none;
+		}
+		p.intr{
+			margin-bottom: 20px;
+		}
+		div.course_bar{
+			margin-bottom: 20px;
+		}
+		div.course{
+			height: 240px;
+			padding: 10px 0;
+		}
+		div.course_iconarea{
+			width: 100%;
+			height: 30%;
+		}
+		div.course_icon{
+			width: 80px;
+			height: 80px;
+		}
+		div.course_article{
+			width: 100%;
+			height: 70%;
+			padding-top: 10px;
+		}
+		h2#name_title{
+			font-size: 22px;
+		}
+		p#name_subtitle{
+			font-size: 14px;
+		}
+		p#about_text01 {
+			line-height: 26px;
+		}
+		p#about_text02 {
+			line-height: 26px;
+		}
+		p#care_text{
+			text-align: center;
+			line-height: 26px;
+			padding: 20px;
+		}
+		h3.subhead{
+			font-size: 24px;
+		}
+		p#about_text01{
+			font-size: 14px;
+		}
+		p#about_text01 br.br_pc{
+			display: none;
+		}
+		p#about_text02{
+			font-size: 14px;
+		}
+		p#about_text02 br.br_pc{
+			display: none;
+		}
+		p.intr{
+			font-size: 14px;
+		}
+		p.course_text{
+			font-size: 14px;
+			padding: 0 20px;
+		}
+		p#care_text{
+			font-size: 14px;
+			text-align: left;
+		}
+		p.thing_text{
+			font-size: 14px;
+			padding: 0 20px;
+			width: 100%;
+		}
+		h3.subhead{
+			padding: 40px 0 0 0;
+		}
+		div.course_bar{
+			width: 100%;
+		}
+		/*ハンバーガーメニューここから*/
+	  #ham_menu_active {
+	      background-color: #fff; /*メニュー背景色*/
+	      box-sizing: border-box;
+	      height: 100%;
+	      padding: 10px 20px; /*メニュー内左右上下余白*/
+	      position: fixed;
+	      right: -250px; /*メニュー横幅 width と合わせる*/
+	      top: 0;
+	      transition: transform 0.3s linear 0s; /*0.3s はアニメーションにかかる時間*/
+	      width: 250px; /*メニュー横幅*/
+	      z-index: 1050;
+	  }
+
+	  #ham_menu_background {
+	      background-color: #333; /*黒背景*/
+	      display: block;
+	      height: 100%;
+	      opacity: 0;
+	      position: fixed;
+	      right: 0;
+	      top: 0;
+	      transition: all 0.3s linear 0s; /*0.3s はアニメーションにかかる時間*/
+	      width: 100%;
+	      z-index: -1;
+	  }
+
+	  #ham_menu_icon {
+	      background-color: #fff; /*アイコン部分背景色*/
+	      border-radius: 0 0 0 10px; /*左下角丸*/
+	      color: #333; /*アイコン（フォント）色*/
+	      cursor: pointer;
+	      display: block;
+	      font-size: 50px; /*アイコン（フォント）サイズ*/
+	      height: 50px; /*アイコン縦高さ*/
+	      line-height: 50px; /*縦位置中央化*/
+	      position: fixed;
+	      right: 0;
+	      text-align: center;
+	      top: 0;
+	      width: 50px; /*アイコン横幅*/
+	      transition: all 0.3s linear 0s; /*0.3s はアニメーションにかかる時間*/
+	      z-index: 1050;
+	  }
+
+	  #ham_menu_cb {
+	      display: none; /*チェックボックス本体は消しておく*/
+	  }
+
+	  #ham_menu_cb:checked ~ #ham_menu_active,
+	  #ham_menu_cb:checked ~ #ham_menu_icon {
+	      transform: translate(-250px); /*メニュー本体横幅 width と合わせる*/
+	  }
+
+	  #ham_menu_cb:checked ~ #ham_menu_background {
+	      opacity: 0.5;
+	      z-index: 1040;
+	  }
+
+	  div#ham_menu_active ul{
+	    list-style: none;
+	    padding: 0;
+	  }
+
+	  div#ham_menu_active li{
+	    margin-bottom: 10px;
+	  }
+
+	  div#ham_menu_active li.ham_upper_list{
+	    border-bottom: 1px solid;
+	  }
+
+	  div#ham_menu_active li a{
+	    text-decoration: none;
+	  }
+
+	  div#ham_menu_active li a:active{
+	    color: gray;
+	  }
+	  /*ハンバーガーメニューここまで*/
+
+	  /*ハンバーガーメニュー付随ここから*/
+	  nav.navbar{
+	    display: none;
+	  }
+	  div#top_content_page{
+	    display: none;
+	  }
+	  div#mobile_header{
+	    width: 100%;
+	    height: 70px;
+	    position: relative;
+	  }
+	  div#mobile_header_logo{
+	    width: 150px;
+	    height: 40px;
+	    position: absolute;
+	    top: 0;;
+	    bottom: 0;
+	    right: 0;
+	    left: 0;
+	    margin: auto;
+	    display: inline-block;
+	  }
+	  div#mobile_header_logo_image{
+	    width: 40px;
+	    height: 40px;
+	    background-image: url(../images/header_icon.png);
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    float: left;
+	  }
+	  div#mobile_header_logo_text{
+	    font-size: 30px;
+	    float: left;
+	    margin-left: 5px;
+	  }
+	  /*ハンバーガーメニュー付随ここまで*/
+}
+
+@media screen and (min-width:426px) and ( max-width:768px) {
+    /*　画面サイズが426pxから768pxまではここを読み込む　*/
+		br.br_mobile{
+			display: block;
+		}
+		br.br_tablet{
+			display: none;
+		}
+		br.br_pc{
+			display: none;
+		}
+		p.intr{
+			margin-bottom: 20px;
+		}
+		div.course_bar{
+			margin-bottom: 20px;
+		}
+		div.course{
+			height: 240px;
+			padding: 10px;
+		}
+		div.course_iconarea{
+			width: 100%;
+			height: 30%;
+		}
+		div.course_icon{
+			width: 80px;
+			height: 80px;
+		}
+		div.course_article{
+			width: 100%;
+			height: 70%;
+			padding-top: 10px;
+		}
+		h2#name_title{
+			font-size: 22px;
+		}
+		p#name_subtitle{
+			font-size: 14px;
+		}
+		p#about_text01 {
+			line-height: 26px;
+		}
+		p#about_text02 {
+			line-height: 26px;
+		}
+		p#care_text{
+			text-align: center;
+			line-height: 26px;
+		}
 		h3.subhead{
 			font-size: 24px;
 		}
@@ -337,8 +610,4 @@ p.cal{
 	    margin-left: 5px;
 	  }
 	  /*ハンバーガーメニュー付随ここまで*/
-}
-
-@media screen and (min-width:426px) and ( max-width:768px) {
-    /*　画面サイズが426pxから768pxまではここを読み込む　*/
 }
