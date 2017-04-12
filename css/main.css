@@ -803,6 +803,12 @@ div#mobile_top_content{
 
 @media screen and (max-width:425px) {
     /*　画面サイズが425pxまではここを読み込む　*/
+		div#news_table {
+    background-color: white;
+    border: none;
+    height: 100px;
+    z-index: 3;
+}
 		/*panelここから*/
 		div#menu_content div div.menu_panel{
 			padding: 20px;
@@ -962,8 +968,32 @@ div#mobile_top_content{
 	  }
 
 	  div#ham_menu_active li.ham_upper_list{
-	    border-bottom: 1px solid;
+	    border-bottom: 2px solid;
 	  }
+
+		div#ham_menu_active li#ham_upper_list_uni{
+			border-color: #F56151;
+		}
+
+		div#ham_menu_active li#ham_upper_list_pro{
+			border-color: #3D9EC7;
+		}
+
+		div#ham_menu_active li#ham_upper_list_course{
+			border-color: #90b670;
+		}
+
+		div#ham_menu_active li#ham_upper_list_access{
+			border-color: #EAC200;
+		}
+
+		div#ham_menu_active li#ham_upper_list_qa{
+			border-color: #f180a8;
+		}
+
+		div#ham_menu_active li#ham_upper_list_diary{
+			border-color: #F29950;
+		}
 
 	  div#ham_menu_active li a{
 	    text-decoration: none;
