@@ -282,6 +282,12 @@ br.br_tablet{
 
 @media screen and (max-width:425px) {
     /*　画面サイズが425pxまではここを読み込む　*/
+		div#mobile_header{
+			display: block;
+		}
+		div#ham_menu_wrapper{
+			display: block;
+		}
 		br.br_mobile{
 			display: block;
 		}
@@ -511,5 +517,5 @@ br.br_tablet{
 		div#content10{
 			height: 300px;
 		}
-		
+
 }

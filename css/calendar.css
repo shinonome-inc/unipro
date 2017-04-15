@@ -256,6 +256,9 @@ div.calendar-container {
 			padding: 1em;
 			margin: 0px;
 		}
+		.calendar-container{
+			text-align: center;
+		}
 		.calendar td {
 			padding: .5em 0.7em;
 			text-align: center;
@@ -277,5 +280,5 @@ div.calendar-container {
 		p#cal_subintr{
 			font-size: 14px;
 		}
-		
+
 }

@@ -50,11 +50,23 @@ div.menu_panel_submenu_item01:hover{
   background-color: #FF7C6E;
 }
 
+div.menu_panel_submenu_item01.hover{
+  background-color: #FF7C6E;
+}
+
 div.menu_panel_submenu_item02:hover{
   background-color: #64C1E8;
 }
 
+div.menu_panel_submenu_item02.hover{
+  background-color: #64C1E8;
+}
+
 div.menu_panel_submenu_item03:hover{
+  background-color: #B5D29D;
+}
+
+div.menu_panel_submenu_item03.hover{
   background-color: #B5D29D;
 }
 

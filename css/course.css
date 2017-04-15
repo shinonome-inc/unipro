@@ -224,6 +224,14 @@ div#thing_image_c{
 
 @media screen and (max-width:425px) {
     /*　画面サイズが425pxまではここを読み込む　*/
+		div.thing_image {
+    width: 300px;
+    height: 230px;
+    margin: 0 auto;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+		}
 		p#about_text01{
 			padding: 0 20px;
 		}
@@ -399,5 +407,5 @@ div#thing_image_c{
 		p.thing_text{
 			font-size: 14px;
 		}
-		
+
 }

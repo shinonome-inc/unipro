@@ -799,10 +799,226 @@ div#mobile_top_content{
 	display: none;
 }
 
+/*registration_flow*/
+div#registration_flow{
+	width: 100%;
+	background-color: #89CAE6;
+	height: 1030px;
+	position: relative;
+	margin-top: 60px;
+}
+div#registration_flow::before{
+	content: "";
+	width: 0;
+	height: 0;
+	border-left: 30px solid transparent;
+	border-right: 30px solid transparent;
+	border-bottom: 50px solid #89CAE6;
+	position: absolute;
+	top: -50px;
+	left: 46%;
+}
+ p#registration_flow_text01{
+	 padding-top: 40px;
+	 text-align: center;
+	 color: white;
+	 margin: 0;
+	 font-size: 16px;
+ }
+
+ p#registration_flow_text02{
+	text-align: center;
+	margin-bottom: 20px;
+	color: #E64747;
+	font-size: 28px;
+ }
+
+span#flow_text_4{
+	font-size: 48px;
+	font-weight: bold;
+}
+
+div#registration_flow_items_wrapper{
+	position: relative;
+	width: 90%;
+	margin: 0 auto;
+}
+div#registration_flow_items_wrapper::before{
+	content:"";
+	display: block;
+	padding-top: 90%;
+}
+ div#registration_flow_items{
+	 position: absolute;
+	 top: 0;
+	 left: 0;
+	 bottom: 0;
+	 right: 0;
+ }
+
+ div#registration_flow_items_top{
+	 width: 100%;
+	 height: 45%;
+ }
+
+ div#registration_flow_items_center{
+	 width: 100%;
+	 height: 10%;
+ }
+
+ div#registration_flow_items_bottom{
+	 width: 100%;
+	 height: 45%;
+ }
+ div.flow{
+	 width: 45%;
+	 height: 100%;
+	 background-color: white;
+	 float: left;
+	 border-radius: 30px;
+ }
+
+p#flow_text04{
+	margin-bottom: 0;
+}
+
+
+
+ div#flow_arrow_area_top{
+	 width: 10%;
+	 height: 100%;
+	 float: left;
+ }
+
+ div#flow_arrow_area_bottom{
+	 width: 10%;
+	 height: 100%;
+	 float: left;
+ }
+
+ p#flow_arrow_top{
+	 padding: 120px 0;
+ }
+
+ p#flow_arrow_bottom{
+	 padding: 120px 0;
+ }
+
+ p#flow_arrow_center{
+	 transform: rotate(45deg);
+ }
+
+ p.flow_arrow{
+	 font-size: 64px;
+	 text-align: center;
+ }
+
+ div.flow_image{
+
+	 background-repeat: no-repeat;
+	 background-size: contain;
+	 width: 85%;
+	 height: 80%;
+	 margin: 0 auto;
+ }
+
+ div#flow_image01{
+	 background-image: url("../images/flow01.png");
+ }
+
+ div#flow_image02{
+	 background-image: url("../images/flow02.png");
+ }
+
+ div#flow_image03{
+	 background-image: url("../images/flow03.jpeg");
+ }
+
+ div#flow_image04{
+	 background-image: url("../images/flow04.jpeg");
+ }
+
+ p.flow_text{
+	 text-align: center;
+	 margin: 15px 0;
+	 font-size: 16px;
+ }
+
 /*Responsive*/
 
 @media screen and (max-width:425px) {
     /*　画面サイズが425pxまではここを読み込む　*/
+
+		/*registration_flow*/
+		div#registration_flow::before {
+			left: 42.5%;
+		}
+		p.flow_text {
+    margin: 20px 0;
+		}
+		div.flow_image {
+    width: 90%;
+    height: 80%;
+		}
+		p.flow_arrow{
+			font-size: 44px;
+		}
+		p#flow_arrow_top {
+    padding: 0;
+		transform: rotate(90deg);
+		}
+		p#flow_arrow_bottom {
+    padding: 0;
+		transform: rotate(90deg);
+		}
+		p#flow_arrow_center{
+			transform: rotate(0deg);
+		}
+		div#registration_flow_items_top{
+	 	 width: 290px;
+	 	 height: 700px;
+		 margin: 0 auto;
+	  }
+
+	  div#registration_flow_items_center{
+	 	 width: 100%;
+	 	 height: 70px;;
+	  }
+
+	  div#registration_flow_items_bottom{
+	 	 width: 290px;
+	 	 height: 700px;
+		 margin: 0 auto;
+	  }
+
+		div#flow01{
+			width: 100%;
+			height: 45%;
+		}
+		div#flow02{
+			width: 100%;
+			height: 45%;
+		}
+		div#flow_arrow_area_top{
+			width: 100%;
+			height: 10%;
+		}
+		div#flow03{
+			width: 100%;
+			height: 45%;
+		}
+		div#flow04{
+			width: 100%;
+			height: 45%;
+		}
+		div#flow_arrow_area_bottom{
+			width: 100%;
+			height: 10%;
+		}
+		div#registration_flow {
+			height: 1720px;
+		}
+		/*registration_flow*/
 		div#news_table {
     background-color: white;
     border: none;

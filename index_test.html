@@ -15,14 +15,15 @@
   <meta name="twitter:image" content="http://about.shinonome.io/unipro/images/twitter.JPG" />
   <meta name="twitter:url" content="http://about.shinonome.io/unipro/" />
   <link rel="shortcut icon" href="favicon.ico">
-  <link rel="stylesheet" href="./css/main_test.css">
-  <link rel="stylesheet" href="./css/top_submenu_test.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/top_submenu.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="./js/jquery-ui.js"></script>
   <script src="./js/jquery.inview.js"></script>
   <script src="./js/main.js"></script>
   <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <script src="./bootstrap/js/bootstrap.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
   <script>
    (function(i,s,o,g,r,a,m){i[‘GoogleAnalyticsObject’]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,‘script’,’https://www.google-analytics.com/analytics.js','ga');
    ga(‘create’, ‘UA-91313567-1’, ‘auto’);
@@ -136,7 +137,7 @@
         </nav>
         <!-- mobile_headerここから -->
         <div id="mobile_header">
-          <a href="../">
+          <a href="./">
             <div id="mobile_header_logo">
               <div id="mobile_header_logo_image">
 
@@ -204,9 +205,6 @@
         <div id="menu_content">
           <div class="row">
 
-            <input id="panel_menu_cb" type="checkbox" value="off">
-            <label id="panel_menu_icon" for="panel_menu_cb">≡</label>
-            <label id="panel_menu_background" for="panel_menu_cb"></label>
             <div class="col-xs-6 col-sm-4 menu_panel" id="menu_unabout">
               <div class="menu_panel_submenu">
                 <div id="menu_panel_submenu_items01">
@@ -282,19 +280,19 @@
           <label id="ham_menu_background" for="ham_menu_cb"></label>
           <div id="ham_menu_active">
               <ul>
-                  <li class="ham_upper_list"><a href="#">ユニプロとは</a></li>
+                  <li class="ham_upper_list" id="ham_upper_list_uni"><a href="#">ユニプロとは</a></li>
                   <li class="ham_lower_list"><a href="./unipro-01/">・Raspberry Pi(ラズベリーパイ)について</a></li>
                   <li class="ham_lower_list"><a href="./unipro-02/">・スクラッチとは</a></li>
-                  <li class="ham_upper_list"><a href="#">プログラミングとは</a></li>
+                  <li class="ham_upper_list" id="ham_upper_list_pro"><a href="#">プログラミングとは</a></li>
                   <li class="ham_lower_list"><a href="./programming-01/">・プログラマーにならないのにプログラミングって必要？</a></li>
                   <li class="ham_lower_list"><a href="./programming-02/">・プログラミングって難しいの？お金が掛かるの?</a></li>
                   <li class="ham_lower_list"><a href="./programming-03/">・なぜ今プログラミングが流行っている？</a></li>
-                  <li class="ham_upper_list"><a href="#">講座について</a></li>
+                  <li class="ham_upper_list" id="ham_upper_list_course"><a href="#">講座について</a></li>
                   <li class="ham_lower_list"><a href="./course/">・講座内容</a></li>
                   <li class="ham_lower_list"><a href="./calendar/">・開催カレンダー</a></li>
-                  <li class="ham_upper_list"><a href="./access/">アクセス</a></li>
-                  <li class="ham_upper_list"><a href="./qa/">Q&A</a></li>
-                  <li class="ham_upper_list"><a href="https://www.facebook.com/pg/UniproSchool/">運営者日記</a></li>
+                  <li class="ham_upper_list" id="ham_upper_list_access"><a href="./access/">アクセス</a></li>
+                  <li class="ham_upper_list" id="ham_upper_list_qa"><a href="./qa/">Q&A</a></li>
+                  <li class="ham_upper_list" id="ham_upper_list_diary"><a href="https://www.facebook.com/pg/UniproSchool/">運営者日記</a></li>
               </ul>
           </div>
         </div>
