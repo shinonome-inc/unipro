@@ -20,13 +20,7 @@ td {
 	padding: 0;
 }
 
-
-
-
-
 div.month_name{
-
-	/*display: inline-block;*/
 }
 
 p.month_name_text{
@@ -42,9 +36,7 @@ p.month_name_text{
 	border-radius: 0.5em 0.5em 0.5em 0.5em;
 	-webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, .2), 0 3px 1px #fff;
 	box-shadow: 0 2px 1px rgba(0, 0, 0, .2), 0 3px 1px #fff;
-
 }
-
 
 .day {
 	font-size: 8em;
@@ -79,11 +71,6 @@ p.month_name_text{
 	padding: .5em 1em;
 	text-align: center;
 }
-
-/*.calendar tbody td.point-day:hover {
-	background: rgba(64,63,60,0.5)
-	color: #fff;
-}*/
 
 .point-day {
 	color: #e7e7e7;
@@ -124,14 +111,6 @@ td ul{
 	padding: 0;
 }
 
-/*td.point-day:hover ul li {
-	overflow: visible;
-  height: 40px;
-
-}*/
-
-
-
 div.cal_submenu{
 	position: absolute;
 	top: 100%;
@@ -148,12 +127,6 @@ div.cal_submenu{
 	display: block;
 	text-decoration: none;
 	margin-top: 5px;
-}
-
-td.point-day:hover td.point-day{
-	background-color: #F56151;
-	color: #e7e7e7;
-
 }
 
 td.point-day:hover div.cal_submenu{
@@ -222,15 +195,18 @@ p#cal_subintr{
 
 div.calendar-container {
  position: relative;
- /*display: inline-block;*/
- /*float: left;
- width: 480px;*/
 　}
 
 /*Responsive*/
 
 @media screen and (max-width:425px) {
     /*　画面サイズが425pxまではここを読み込む　*/
+		div.cal_boxarea {
+			width: 15%;
+		}
+		div.cal_intr p {
+			width: 85%;
+		}
 		p.month_name_text{
 			background-color: #fff;
 			display: inline-block;
