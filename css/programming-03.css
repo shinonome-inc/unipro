@@ -49,7 +49,7 @@ br.br_tablet{
 			text-align: center;
 		}
 		p.text span{
-			font-size: 16px;
+			font-size: 14px;
 		}
 		p#intr{
 			padding: 40px 20px 20px 20px;
@@ -88,5 +88,5 @@ br.br_tablet{
 			font-size: 20px;
 			text-align: center;
 		}
-		
+
 }

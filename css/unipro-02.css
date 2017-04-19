@@ -312,6 +312,9 @@ br.br_tablet{
 
 @media screen and (min-width:426px) and ( max-width:768px) {
     /*　画面サイズが426pxから768pxまではここを読み込む　*/
+		br.br_pc{
+			display: none;
+		}
 		br.br_mobile{
 			display: none;
 		}
@@ -334,16 +337,16 @@ br.br_tablet{
 			margin: 20px;
 		}
 		p.text{
-			font-size: 12px;
-			line-height: 24px;
+			font-size: 16px;
+			line-height: 30px;
 			text-align: center;
 		}
 		p.text span{
-			font-size: 14px;
+			font-size: 18px;
 		}
 		div.content01_article{
 			width: 100%;
-			height: 400px;
+			height: 440px;
 		}
 		div.content01_imagearea{
 			width: 100%;
@@ -352,7 +355,7 @@ br.br_tablet{
 		}
 		div.content02_article{
 			width: 100%;
-			height: 420px;
+			height: 460px;
 		}
 		div.content02_imagearea{
 			width: 100%;

@@ -113,7 +113,7 @@ div.menu_panel_img > a{
   top: 0;
   left: 0;
   text-decoration: none;
-  text-indent:-999px;
+  text-indent:-9999px;
 }
 
 /*Responsive*/

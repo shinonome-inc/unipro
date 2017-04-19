@@ -227,14 +227,6 @@ br.br_tablet{
 		div.a_icon{
 			left: -56px;
 		}
-		p.a_text {
-			left: 0;
-			right: 0;
-			line-height: 20px;
-		}
-		p.q_text{
-			line-height: 20px;
-		}
 		div.q-wrapper {
 			margin-bottom: 16px;
 		}
@@ -255,9 +247,13 @@ br.br_tablet{
 		}
 		p.q_text{
 			font-size: 12px;
+			line-height: 20px;
 		}
 		p.a_text{
 			font-size: 12px;
+			left: 0;
+			right: 0;
+			line-height: 20px;
 		}
 	}
 
@@ -342,5 +338,5 @@ br.br_tablet{
 		p.a_text{
 			font-size: 12px;
 		}
-		
+
 }

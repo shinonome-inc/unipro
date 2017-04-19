@@ -264,13 +264,6 @@ div#icon_navi07{
 div#icon_navi09{
 	transform: rotate(180deg);
 }
-
-div#mobile_header{
-	display: none;
-}
-div#ham_menu_wrapper{
-	display: none;
-}
 br.br_mobile{
 	display: none;
 }
@@ -282,11 +275,8 @@ br.br_tablet{
 
 @media screen and (max-width:425px) {
     /*　画面サイズが425pxまではここを読み込む　*/
-		div#mobile_header{
-			display: block;
-		}
-		div#ham_menu_wrapper{
-			display: block;
+		br.br_pc{
+			display: none;
 		}
 		br.br_mobile{
 			display: block;
@@ -296,7 +286,7 @@ br.br_tablet{
 		}
 		p.text{
 			font-size: 12px;
-			line-height: 20px;
+			line-height: 24px;
 			text-align: center;
 		}
 		p.text span{
@@ -405,19 +395,22 @@ br.br_tablet{
 
 @media screen and (min-width:426px) and ( max-width:768px) {
     /*　画面サイズが426pxから768pxまではここを読み込む　*/
-		br.br_mobile{
-			display: block;
-		}
-		br.br_tablet{
+		br.br_pc{
 			display: none;
 		}
+		br.br_mobile{
+			display: none;
+		}
+		br.br_tablet{
+			display: block;
+		}
 		p.text{
-			font-size: 12px;
-			line-height: 20px;
+			font-size: 16px;
+			line-height: 30px;
 			text-align: center;
 		}
 		p.text span{
-			font-size: 14px;
+			font-size: 18px;
 		}
 		p.text br.br_pc{
 			display: none;
@@ -454,12 +447,12 @@ br.br_tablet{
 		p#text01{
 			padding: 40px 20px 20px 20px;
 			float: none;
-			height: 230px;
+			height: 330px;
 		}
 		p#text02{
 			padding: 20px;
 			float: none;
-			height: 150px;
+			height: 220px;
 		}
 		div#iconarea04{
 			width: 100%;
@@ -470,12 +463,12 @@ br.br_tablet{
 			width: 100%;
 			padding: 20px;
 			float: none;
-			height: 110px;
+			height: 160px;
 		}
 		p#text04{
 			width: 100%;
 			padding: 20px;
-			height: 220px;
+			height: 290px;
 			float: none;
 		}
 		div#iconarea06{
@@ -491,13 +484,13 @@ br.br_tablet{
 		p#text05{
 			width: 100%;
 			padding: 20px;
-			height: 200px;
+			height: 290px;
 			float: none;
 		}
 		p#text06{
 			width: 100%;
 			padding: 20px;
-			height: 300px;
+			height: 410px;
 			float: none;
 		}
 		div#iconarea10{
@@ -505,17 +498,18 @@ br.br_tablet{
 			float: none;
 			height: 300px;
 		}
+
 		div#content04{
-			height: 110px;
+			height: 160px;
 		}
 		div#content06{
-			height: 220px;
+			height: 290px;
 		}
 		div#content08{
-			height: 200px;
+			height: 290px;
 		}
 		div#content10{
-			height: 300px;
+			height: 410px;
 		}
 
 }

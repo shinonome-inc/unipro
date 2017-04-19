@@ -83,17 +83,27 @@ h2.subhead{
   color: #F56151;
 }
 
+br.br_mobile{
+  display: none;
+}
+
 
 /*Responsive*/
 
 @media screen and (max-width:425px) {
     /*　画面サイズが425pxまではここを読み込む　*/
-  .text br.br_pc{
+  br.br_pc{
+    display: none;
+  }
+  br.br_mobile{
+    display: block;
+  }
+  br.br_tablet{
     display: none;
   }
   p#uni01_text{
     font-size: 12px;
-    line-height: 18px;
+    line-height: 20px;
   }
 
   h2.subhead{
@@ -108,9 +118,28 @@ h2.subhead{
   div.item{
     height: 390px;
   }
-  
+
 }
 
 @media screen and (min-width:426px) and ( max-width:768px) {
     /*　画面サイズが426pxから768pxまではここを読み込む　*/
+    br.br_pc{
+      display: none;
+    }
+    br.br_mobile{
+      display: none;
+    }
+    br.br_tablet{
+      display: block;
+    }
+    p#uni01_text{
+      font-size: 16px;
+      line-height: 26px;
+    }
+    p#intr{
+      font-size: 16px;
+    }
+    p#intr span{
+      font-size: 18px;
+    }
 }

@@ -252,8 +252,8 @@ br.br_tablet{
 			font-size: 14px;
 		}
 		p.text{
-			font-size: 12px;
-			line-height: 24px;
+			font-size: 16px;
+			line-height: 30px;
 		}
 		p.text br.br_pc{
 			display: none;

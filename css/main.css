@@ -956,9 +956,10 @@ p#flow_text04{
 
 		div#mobile_top_content_entryarea:hover{
 			background-color: rgba(255, 140, 127, 0.8);
-			transition: 0.4s;
 		}
-
+		div.entry_btn:hover{
+			transition: 0s;
+		}
 
 		/*registration_flow*/
 		div#registration_flow::before {
@@ -1195,7 +1196,7 @@ p#flow_text04{
 	  }
 
 	  div#ham_menu_active li.ham_upper_list{
-	    border-bottom: 2px solid;
+	    border-bottom: 3px solid;
 	  }
 
 		div#ham_menu_active li#ham_upper_list_uni{
@@ -1277,6 +1278,76 @@ p#flow_text04{
 
 @media screen and (min-width:426px) and ( max-width:768px) {
     /*　画面サイズが426pxから768pxまではここを読み込む　*/
+		/*registration_flow*/
+		div#registration_flow::before {
+			left: 42.5%;
+		}
+		p.flow_text {
+    margin: 20px 0;
+		}
+		div.flow_image {
+    width: 90%;
+    height: 80%;
+		}
+		p.flow_arrow{
+			font-size: 44px;
+		}
+		p#flow_arrow_top {
+    padding: 0;
+		transform: rotate(90deg);
+		}
+		p#flow_arrow_bottom {
+    padding: 0;
+		transform: rotate(90deg);
+		}
+		p#flow_arrow_center{
+			transform: rotate(0deg);
+		}
+		div#registration_flow_items_top{
+	 	 width: 290px;
+	 	 height: 700px;
+		 margin: 0 auto;
+	  }
+
+	  div#registration_flow_items_center{
+	 	 width: 100%;
+	 	 height: 70px;
+	  }
+
+	  div#registration_flow_items_bottom{
+	 	 width: 290px;
+	 	 height: 700px;
+		 margin: 0 auto;
+	  }
+
+		div#flow01{
+			width: 100%;
+			height: 45%;
+		}
+		div#flow02{
+			width: 100%;
+			height: 45%;
+		}
+		div#flow_arrow_area_top{
+			width: 100%;
+			height: 10%;
+		}
+		div#flow03{
+			width: 100%;
+			height: 45%;
+		}
+		div#flow04{
+			width: 100%;
+			height: 45%;
+		}
+		div#flow_arrow_area_bottom{
+			width: 100%;
+			height: 10%;
+		}
+		div#registration_flow {
+			height: 1720px;
+		}
+		/*registration_flow*/
 		/*panelここから*/
 		div#menu_content div div.menu_panel{
 			padding: 20px;
@@ -1436,8 +1507,32 @@ p#flow_text04{
 	  }
 
 	  div#ham_menu_active li.ham_upper_list{
-	    border-bottom: 1px solid;
+	    border-bottom: 3px solid;
 	  }
+
+		div#ham_menu_active li#ham_upper_list_uni{
+			border-color: #F56151;
+		}
+
+		div#ham_menu_active li#ham_upper_list_pro{
+			border-color: #3D9EC7;
+		}
+
+		div#ham_menu_active li#ham_upper_list_course{
+			border-color: #90b670;
+		}
+
+		div#ham_menu_active li#ham_upper_list_access{
+			border-color: #EAC200;
+		}
+
+		div#ham_menu_active li#ham_upper_list_qa{
+			border-color: #f180a8;
+		}
+
+		div#ham_menu_active li#ham_upper_list_diary{
+			border-color: #F29950;
+		}
 
 	  div#ham_menu_active li a{
 	    text-decoration: none;
