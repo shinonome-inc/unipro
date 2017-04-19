@@ -687,6 +687,11 @@ div#menu_diary {
 }
 
 /*pages*/
+
+div.entry_btn:hover{
+	background-color: #7DDD8C;
+	transition: 0.4s;
+}
 div.clear{
 	clear: both;
 }
@@ -948,6 +953,12 @@ p#flow_text04{
 
 @media screen and (max-width:425px) {
     /*　画面サイズが425pxまではここを読み込む　*/
+
+		div#mobile_top_content_entryarea:hover{
+			background-color: rgba(255, 140, 127, 0.8);
+			transition: 0.4s;
+		}
+
 
 		/*registration_flow*/
 		div#registration_flow::before {

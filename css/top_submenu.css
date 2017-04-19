@@ -134,6 +134,17 @@ div.menu_panel_img > a{
       height: 35%;
     }
 
+    a#panel_submenu_a01{
+      padding-top: 12px;
+    }
+    a#panel_submenu_a02{
+      padding-top: 20px;
+    }
+
+    div.menu_panel_submenu_item03 a{
+      padding-top: 20px;
+    }
+
     div.menu_panel_submenu_item02 {
       background-color: #3D9EC7;
       height: 22%;
