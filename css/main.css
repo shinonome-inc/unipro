@@ -688,6 +688,10 @@ div#menu_diary {
 
 /*pages*/
 
+#title_bar_font-size16{
+	font-size: 16px;
+}
+
 div.entry_btn:hover{
 	background-color: #7DDD8C;
 	transition: 0.4s;

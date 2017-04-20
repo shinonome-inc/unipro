@@ -201,10 +201,20 @@ br.br_mobile{
 	display: none;
 }
 
+br.br_pc{
+	display: block;
+}
+
 /*Responsive*/
 
 @media screen and (max-width:425px) {
     /*　画面サイズが425pxまではここを読み込む　*/
+		br.br_pc{
+			display: none;
+		}
+		br.br_mobile{
+			display: block;
+		}
 		div.cal_boxarea {
 			width: 15%;
 		}
