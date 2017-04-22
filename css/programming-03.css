@@ -64,28 +64,28 @@ br.br_tablet{
 @media screen and (min-width:426px) and ( max-width:768px) {
     /*　画面サイズが426pxから768pxまではここを読み込む　*/
 		br.br_mobile{
-			display: block;
+			display: none;
 		}
 		br.br_tablet{
-			display: none;
+			display: block;
 		}
 		br.br_pc{
 			display: none;
 		}
 		p.text{
-			font-size: 12px;
-			line-height: 24px;
+			font-size: 16px;
+			line-height: 30px;
 			padding: 20px;
 			text-align: center;
 		}
 		p.text span{
-			font-size: 16px;
+			font-size: 18px;
 		}
 		p#intr{
 			padding: 40px 20px 20px 20px;
 		}
 		h2.subhead{
-			font-size: 20px;
+			font-size: 24px;
 			text-align: center;
 		}
 

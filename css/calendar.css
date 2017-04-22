@@ -264,6 +264,50 @@ br.br_pc{
 
 @media screen and (min-width:426px) and ( max-width:768px) {
     /*　画面サイズが426pxから768pxまではここを読み込む　*/
+		br.br_pc{
+			display: none;
+		}
+		br.br_mobile{
+			display: block;
+		}
+		div.cal_boxarea {
+			width: 15%;
+		}
+		div.cal_intr p {
+			width: 85%;
+		}
+		p.month_name_text{
+			background-color: #fff;
+			display: inline-block;
+			text-align: center;
+			width: 30%;
+			margin: 0 auto;
+			margin-left: 10px;;
+			margin-bottom: 5px;
+			margin-top: 50px;
+			padding: 8px 10px;
+			border-radius: 0.5em 0.5em 0.5em 0.5em;
+			-webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, .2), 0 3px 1px #fff;
+			box-shadow: 0 2px 1px rgba(0, 0, 0, .2), 0 3px 1px #fff;
+
+		}
+		.calendar {
+			background: #fff;
+			border-radius: 1em 1em 1em 1em;
+			-webkit-box-shadow: 0 2px 1px rgba(0, 0, 0, .2), 0 3px 1px #fff;
+			box-shadow: 0 2px 1px rgba(0, 0, 0, .2), 0 3px 1px #fff;
+			color: #555;
+			display: inline-block;
+			padding: 1em;
+			margin: 0px;
+		}
+		.calendar-container{
+			text-align: center;
+		}
+		.calendar td {
+			padding: .5em 0.7em;
+			text-align: center;
+		}
 		p#cal_care{
 			font-size: 14px;
 		}

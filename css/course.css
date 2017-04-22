@@ -333,10 +333,10 @@ div#thing_image_c{
 @media screen and (min-width:426px) and ( max-width:768px) {
     /*　画面サイズが426pxから768pxまではここを読み込む　*/
 		br.br_mobile{
-			display: block;
+			display: none;
 		}
 		br.br_tablet{
-			display: none;
+			display: block;
 		}
 		br.br_pc{
 			display: none;
@@ -384,28 +384,27 @@ div#thing_image_c{
 			font-size: 24px;
 		}
 		p#about_text01{
-			font-size: 14px;
-		}
-		p#about_text01 br.br_pc{
-			display: none;
+			font-size: 16px;
+			margin: 20px;
 		}
 		p#about_text02{
-			font-size: 14px;
-		}
-		p#about_text02 br.br_pc{
-			display: none;
+			font-size: 16px;
+			margin: 20px;
 		}
 		p.intr{
-			font-size: 14px;
+			font-size: 16px;
+			margin: 20px;
 		}
 		p.course_text{
-			font-size: 14px;
+			font-size: 16px;
+			margin: 20px;
 		}
 		p#care_text{
-			font-size: 14px;
+			font-size: 16px;
+			margin: 20px;
 		}
 		p.thing_text{
-			font-size: 14px;
+			font-size: 16px;
 		}
 
 }

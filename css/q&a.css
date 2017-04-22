@@ -337,6 +337,7 @@ br.br_tablet{
 		}
 		p.a_text{
 			font-size: 12px;
+			left: 20%;
 		}
 
 }

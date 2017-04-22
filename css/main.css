@@ -687,9 +687,16 @@ div#menu_diary {
 }
 
 /*pages*/
+br.br_pc{
+	display: block;
+}
 
-#title_bar_font-size16{
-	font-size: 16px;
+br.br_tablet{
+	display: none;
+}
+
+br.br_mobile{
+	display: none;
 }
 
 div.entry_btn:hover{
@@ -957,6 +964,20 @@ p#flow_text04{
 
 @media screen and (max-width:425px) {
     /*　画面サイズが425pxまではここを読み込む　*/
+		br.br_pc{
+			display: none;
+		}
+
+		br.br_tablet{
+			display: none;
+		}
+
+		br.br_mobile{
+			display: block;
+		}
+		#title_bar_font-size16{
+			font-size: 16px;
+		}
 
 		div#mobile_top_content_entryarea:hover{
 			background-color: rgba(255, 140, 127, 0.8);
@@ -1282,6 +1303,17 @@ p#flow_text04{
 
 @media screen and (min-width:426px) and ( max-width:768px) {
     /*　画面サイズが426pxから768pxまではここを読み込む　*/
+		br.br_pc{
+			display: none;
+		}
+
+		br.br_tablet{
+			display: block;
+		}
+
+		br.br_mobile{
+			display: none;
+		}
 		/*registration_flow*/
 		div#registration_flow::before {
 			left: 42.5%;

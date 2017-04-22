@@ -15,8 +15,6 @@ h2.access_subhead{
 	color: #F56151;
 }
 
-
-
 p.access_text{
   text-align: center;
   padding: 10px 0 10px 0;
@@ -24,12 +22,19 @@ p.access_text{
 }
 
 div.map_image{
-	background-image: url(../images/map.png);
-	width: 60%;
+	width: 80%;
 	height: 400px;
 	background-size: contain;
 	background-repeat: no-repeat;
 	margin: 0 auto;
+}
+
+div.map{
+	text-align: center;
+}
+img#map{
+	width: 800px;
+	height: 500px;
 }
 
 /*Responsive*/
@@ -42,6 +47,13 @@ div.map_image{
 		h2.access_subhead{
 			font-size: 14px;
 		}
+		div.map_image{
+			height: 230px;
+		}
+		img#map{
+			width: 280px;
+			height: 190px;
+		}
 
 }
 
@@ -53,5 +65,11 @@ div.map_image{
 		h2.access_subhead{
 			font-size: 14px;
 		}
-		
+		div.map_image{
+			height: 230px;
+		}
+		img#map{
+			width: 400px;
+			height: 300px;
+		}
 }

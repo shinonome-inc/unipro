@@ -322,13 +322,15 @@ br.br_tablet{
 			display: block;;
 		}
 		h2.subhead{
-			font-size: 20px;
+			font-size: 28px;
 		}
 		h3.content01_subhead_text{
-			font-size: 18px;
+			font-size: 24px;
+			margin-top: 40px;
 		}
 		h3.content02_subhead_text{
-			font-size: 18px;
+			font-size: 24px;
+			margin-top: 40px;
 		}
 		p#intr br.br_pc{
 			display: none;
@@ -344,18 +346,25 @@ br.br_tablet{
 		p.text span{
 			font-size: 18px;
 		}
+		div.content01{
+			height: 620px;
+		}
+		div.content02{
+			height: 630px;
+		}
 		div.content01_article{
 			width: 100%;
-			height: 440px;
+			height: 500px;
 		}
 		div.content01_imagearea{
 			width: 100%;
 			margin-bottom: 20px;
 			height: 200px;
+			position: relative;
 		}
 		div.content02_article{
 			width: 100%;
-			height: 460px;
+			height: 520px;
 		}
 		div.content02_imagearea{
 			width: 100%;
@@ -364,23 +373,23 @@ br.br_tablet{
 		}
 		div#content01_image{
 			height: 60%;
-			width: 50%;
+			width: 40%;
 		}
 		p#content01_text{
-			margin: 20px;
+			margin: 40px 20px 20px 20px;
 		}
 		p#content01_text br.br_pc{
 			display: none;
 		}
 		p#content02_text{
-			margin: 20px;
+			margin: 40px 20px 20px 20px;
 		}
 		p#content02_text br.br_pc{
 			display: none;
 		}
 		div#content02_image{
 			height: 60%;
-			width: 50%;
+			width: 30%;
 		}
 		h3.content01_subhead_text{
 			text-align: center;
@@ -389,10 +398,20 @@ br.br_tablet{
 			text-align: center;
 		}
 		div.content01_subhead{
-			margin: 0;
+			width: 310px;
+			margin: 40px auto;
+			text-align: center;
 		}
 		div.content02_subhead{
-			margin: 0;
+			width: 300px;
+			margin: 40px auto;
+			text-align: center;
+		}
+		div#content01_subhead_bottombar01 {
+			width: 275px;
+		}
+		div#content02_subhead_bottombar01 {
+			width: 265px;
 		}
 
 }

@@ -24,13 +24,19 @@ p.text{
 }
 
 p#uni01_text{
-  line-height: 28px;
+  line-height: 34px;
 }
 
 div.item{
-  /*width: 32%;*/
   float: left;
-  height: 590px;
+}
+
+div.top_items{
+  height: 480px;
+}
+
+div.bottom_items{
+  height:600px;
 }
 
 div.icon_wrapper{
