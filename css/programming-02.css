@@ -159,30 +159,12 @@ div#main01_icon{
 	left: 0;
 	margin: auto;
 }
-br.br_pc{
-	display: block;
-}
-br.br_mobile{
-	display: none;
-}
-
-br.br_tablet{
-	display: none;
-}
 
 /*Responsive*/
 
 @media screen and (max-width:425px) {
     /*　画面サイズが425pxまではここを読み込む　*/
-		br.br_mobile{
-			display: block;
-		}
-		br.br_pc{
-			display: none;
-		}
-		br.br_tablet{
-			display: none;
-		}
+
 		div#main01_title_bottombar01{
 			width: 90%;
 		}
@@ -251,20 +233,15 @@ br.br_tablet{
 			margin: 30px;
 			text-align: center;
 		}
+		span{
+			font-size: 14px;
+		}
 
 }
 
 @media screen and (min-width:426px) and ( max-width:768px) {
     /*　画面サイズが426pxから768pxまではここを読み込む　*/
-		br.br_tablet{
-			display: block;
-		}
-		br.br_pc{
-			display: none;
-		}
-		br.br_mobile{
-			display: none;
-		}
+
 		div#main01_title_bottombar01 {
 			width: 195px;
 		}

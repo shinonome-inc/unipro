@@ -211,24 +211,11 @@ div.game{
 	margin: 10%;
 }
 
-br.br_mobile{
-	display: none;
-}
-
-br.br_tablet{
-	display: none;
-}
-
 /*Responsive*/
 
 @media screen and (max-width:425px) {
     /*　画面サイズが425pxまではここを読み込む　*/
-		br.br_mobile{
-			display: block;
-		}
-		br.br_tablet{
-			display: none;
-		}
+
 		div.content01_subhead {
     margin: 30px;
 		}
@@ -312,15 +299,6 @@ br.br_tablet{
 
 @media screen and (min-width:426px) and ( max-width:768px) {
     /*　画面サイズが426pxから768pxまではここを読み込む　*/
-		br.br_pc{
-			display: none;
-		}
-		br.br_mobile{
-			display: none;
-		}
-		br.br_tablet{
-			display: block;;
-		}
 		h2.subhead{
 			font-size: 28px;
 		}

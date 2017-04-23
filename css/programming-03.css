@@ -21,27 +21,10 @@ p.text{
 	padding:10px 0 30px 30px;
 }
 
-br.br_mobile{
-	display: none;
-}
-
-br.br_tablet{
-	display: none;
-}
-
 /*Responsive*/
 
 @media screen and (max-width:425px) {
     /*　画面サイズが425pxまではここを読み込む　*/
-		br.br_mobile{
-			display: block;
-		}
-		br.br_tablet{
-			display: none;
-		}
-		br.br_pc{
-			display: none;
-		}
 		p.text{
 			font-size: 12px;
 			line-height: 24px;
@@ -63,15 +46,6 @@ br.br_tablet{
 
 @media screen and (min-width:426px) and ( max-width:768px) {
     /*　画面サイズが426pxから768pxまではここを読み込む　*/
-		br.br_mobile{
-			display: none;
-		}
-		br.br_tablet{
-			display: block;
-		}
-		br.br_pc{
-			display: none;
-		}
 		p.text{
 			font-size: 16px;
 			line-height: 30px;

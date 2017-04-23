@@ -168,14 +168,6 @@ div.triangle_a04{
 	float: right;
 }
 
-br.br_mobile{
-	display: none;
-}
-
-br.br_tablet{
-	display: none;
-}
-
 /*Responsive*/
 
 @media screen and (max-width:425px) {
@@ -211,15 +203,7 @@ br.br_tablet{
 			border-top: 60px solid transparent;
 			border-bottom: 60px solid transparent;
 		}
-		br.br_mobile{
-			display: block;
-		}
-		br.br_tablet{
-			display: none;
-		}
-		br.br_pc{
-			display: none;
-		}
+
 		div.qa_icon {
 			width: 40px;
 			height: 40px;
@@ -289,15 +273,6 @@ br.br_tablet{
 		div.triangle_a04 {
 			border-top: 60px solid transparent;
 			border-bottom: 60px solid transparent;
-		}
-		br.br_mobile{
-			display: block;
-		}
-		br.br_tablet{
-			display: none;
-		}
-		br.br_pc{
-			display: none;
 		}
 		div.qa_icon {
 			width: 40px;

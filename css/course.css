@@ -189,14 +189,6 @@ p.cal{
 	margin: 0 auto;
 }
 
-br.br_mobile{
-	display: none;
-}
-
-br.br_tablet{
-	display: none;
-}
-
 div.thing_image{
 	width: 352px;
 	height: 250px;
@@ -241,15 +233,7 @@ div#thing_image_c{
 		p.intr{
 			padding: 20px;
 		}
-		br.br_mobile{
-			display: block;
-		}
-		br.br_tablet{
-			display: none;
-		}
-		br.br_pc{
-			display: none;
-		}
+
 		p.intr{
 			margin-bottom: 20px;
 		}
@@ -332,15 +316,7 @@ div#thing_image_c{
 
 @media screen and (min-width:426px) and ( max-width:768px) {
     /*　画面サイズが426pxから768pxまではここを読み込む　*/
-		br.br_mobile{
-			display: none;
-		}
-		br.br_tablet{
-			display: block;
-		}
-		br.br_pc{
-			display: none;
-		}
+		
 		p.intr{
 			margin-bottom: 20px;
 		}

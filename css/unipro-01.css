@@ -89,23 +89,16 @@ h2.subhead{
   color: #F56151;
 }
 
-br.br_mobile{
-  display: none;
+a.link_line{
+  text-decoration: underline;
 }
-
 
 /*Responsive*/
 
 @media screen and (max-width:425px) {
     /*　画面サイズが425pxまではここを読み込む　*/
-  br.br_pc{
-    display: none;
-  }
-  br.br_mobile{
-    display: block;
-  }
-  br.br_tablet{
-    display: none;
+  div.icon_wrapper{
+    width: 140px;
   }
   p#uni01_text{
     font-size: 12px;
@@ -113,10 +106,11 @@ br.br_mobile{
   }
 
   h2.subhead{
-    font-size: 20px;
+    font-size: 28px;
   }
   p#intr{
     font-size: 14px;
+    margin: 50px 0;
   }
   p#intr span{
     font-size: 18px;
@@ -124,19 +118,33 @@ br.br_mobile{
   div.item{
     height: 390px;
   }
-
+  div#item01{
+    height: 280px;
+  }
+  div#item02{
+    height: 300px;
+  }
+  div#item03{
+    height: 310px;
+  }
+  div#item04{
+    height: 390px;
+  }
+  div#item05{
+    height: 320px;
+  }
+  div#item06{
+    height: 290px;
+  }
 }
 
 @media screen and (min-width:426px) and ( max-width:768px) {
     /*　画面サイズが426pxから768pxまではここを読み込む　*/
-    br.br_pc{
-      display: none;
+    div.icon_wrapper{
+      width: 200px;
     }
-    br.br_mobile{
-      display: none;
-    }
-    br.br_tablet{
-      display: block;
+    h2.subhead{
+      font-size: 32px;
     }
     p#uni01_text{
       font-size: 16px;
@@ -147,5 +155,23 @@ br.br_mobile{
     }
     p#intr span{
       font-size: 18px;
+    }
+    div#item01{
+      height: 370px;
+    }
+    div#item02{
+      height: 400px;
+    }
+    div#item03{
+      height: 420px;
+    }
+    div#item04{
+      height: 500px;
+    }
+    div#item05{
+      height: 440px;
+    }
+    div#item06{
+      height: 400px;
     }
 }

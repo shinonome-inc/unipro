@@ -135,7 +135,7 @@ div.menu_panel_img > a{
     }
 
     a#panel_submenu_a01{
-      padding-top: 12px;
+      padding-top: 20px;
     }
     a#panel_submenu_a02{
       padding-top: 20px;
@@ -180,4 +180,64 @@ div.menu_panel_img > a{
 
 @media screen and (min-width:426px) and ( max-width:768px) {
     /*　画面サイズが426pxから768pxまではここを読み込む　*/
+    div.menu_panel_submenu_item{
+      width: 90%;
+      font-size: 14px;
+    	text-align: center;
+      margin: 0 auto;
+      margin-top: 10%;
+      position: relative;
+    }
+
+    div.menu_panel_submenu_item01 {
+      background-color: #F56151;
+      height: 35%;
+    }
+
+    a#panel_submenu_a01{
+      padding-top: 30px;
+    }
+    a#panel_submenu_a02{
+      padding-top: 30px;
+    }
+
+    div.menu_panel_submenu_item03 a{
+      padding-top: 30px;
+    }
+
+    div.menu_panel_submenu_item02 a{
+      padding-top: 10px;
+    }
+
+    div.menu_panel_submenu_item02 {
+      background-color: #3D9EC7;
+      height: 22%;
+    }
+
+    div.menu_panel_submenu_item03 {
+      background-color: #90b670;
+      height: 35%;
+    }
+
+    div#menu_panel_submenu_items01{
+      padding-top: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    div#menu_panel_submenu_items02{
+      padding-top: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    div#menu_panel_submenu_items03{
+      padding-top: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    div.menu_panel_submenu_item a{
+      line-height: 16px;
+    }
 }

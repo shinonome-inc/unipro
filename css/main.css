@@ -720,7 +720,7 @@ div.pankuzu{
 	float: left;
 }
 div.pankuzu p{
-	left:20px;
+	padding-left:20px;
 	position: absolute;
 	margin: 0;
 	color: rgba(248,248,248,1);
@@ -1147,7 +1147,11 @@ p#flow_text04{
 		}
 		div.pankuzu p{
 			font-size: 8px;
-			left: 10px;
+			padding-left: 10px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			width: 100%;
 		}
 		/*ハンバーガーメニューここから*/
 		div#ham_menu_wrapper{
@@ -1456,7 +1460,7 @@ p#flow_text04{
     line-height: 60px;
     left: 74px;
     color: rgba(248,248,248,1);
-		font-size: 12px;
+		font-size: 16px;
 		}
 		div.pankuzu{
 			height: 20px;
@@ -1469,7 +1473,11 @@ p#flow_text04{
 		}
 		div.pankuzu p{
 			font-size: 8px;
-			left: 10px;
+			padding-left: 10px;
+			overflow: hidden;
+			text-overflow: ellipsis;
+			white-space: nowrap;
+			width: 100%;
 		}
 		/*ハンバーガーメニューここから*/
 		div#ham_menu_wrapper{
