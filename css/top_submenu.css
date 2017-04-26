@@ -23,8 +23,6 @@ div#menu_panel_submenu_comingsoon{
   position: absolute;
   z-index: 1;
   color: rgb(245, 97, 81);
-
-
 }
 
 div#menu_panel_submenu_comingsoon p{
@@ -39,8 +37,6 @@ div#menu_panel_submenu_comingsoon p{
   height: 36%;
   text-align: center;
 }
-
-
 
 div.menu_panel:hover div.menu_panel_submenu{
   display: block;
@@ -62,13 +58,10 @@ div.menu_panel_submenu_item{
   width: 90%;
   height: 50px;
   font-size: 14px;
-	text-align: center;
   margin: 0 auto;
   margin-top: 6%;
   position: relative;
 }
-
-
 
 div.menu_panel_submenu_item01 {
   background-color: #F56151;
@@ -84,13 +77,15 @@ div.menu_panel_submenu_item03 {
 
 div.menu_panel_submenu_item a{
   color: #e7e7e7;
-  line-height: 50px;
   text-decoration: none;
   position: absolute;
   width: 100%;
   height: 100%;
   top:0;
   left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 div#menu_panel_submenu_items01{
@@ -123,7 +118,6 @@ div.menu_panel_img > a{
     div.menu_panel_submenu_item{
       width: 90%;
       font-size: 14px;
-    	text-align: center;
       margin: 0 auto;
       margin-top: 10%;
       position: relative;
@@ -132,17 +126,6 @@ div.menu_panel_img > a{
     div.menu_panel_submenu_item01 {
       background-color: #F56151;
       height: 35%;
-    }
-
-    a#panel_submenu_a01{
-      padding-top: 20px;
-    }
-    a#panel_submenu_a02{
-      padding-top: 20px;
-    }
-
-    div.menu_panel_submenu_item03 a{
-      padding-top: 20px;
     }
 
     div.menu_panel_submenu_item02 {
@@ -171,10 +154,6 @@ div.menu_panel_img > a{
       padding-top: 0;
       width: 100%;
       height: 100%;
-    }
-
-    div.menu_panel_submenu_item a{
-      line-height: 16px;
     }
 }
 
@@ -194,21 +173,6 @@ div.menu_panel_img > a{
       height: 35%;
     }
 
-    a#panel_submenu_a01{
-      padding-top: 30px;
-    }
-    a#panel_submenu_a02{
-      padding-top: 30px;
-    }
-
-    div.menu_panel_submenu_item03 a{
-      padding-top: 30px;
-    }
-
-    div.menu_panel_submenu_item02 a{
-      padding-top: 10px;
-    }
-
     div.menu_panel_submenu_item02 {
       background-color: #3D9EC7;
       height: 22%;
@@ -235,9 +199,5 @@ div.menu_panel_img > a{
       padding-top: 0;
       width: 100%;
       height: 100%;
-    }
-
-    div.menu_panel_submenu_item a{
-      line-height: 16px;
     }
 }
