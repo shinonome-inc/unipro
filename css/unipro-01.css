@@ -1,4 +1,10 @@
-
+div.daikei{
+  width: 100px;
+  height: 100px;
+  border-style: solid;
+  border-width:00px 00px 50px 50px;
+  border-color: red blue yellow green;
+}
 div.test{
   height: 900px;
   background-color: red;

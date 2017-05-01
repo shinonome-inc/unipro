@@ -1,6 +1,3 @@
-
-
-
 div.title_bar_pro02{
 	background-color: #3D9EC7;
 }
@@ -16,7 +13,7 @@ p#intr{
 
 div#main01{
 	width: 100%;
-	height: 630px;
+	height: 590px;
 	margin-bottom: 30px;
 }
 
@@ -66,11 +63,35 @@ p#main01_text{
 }
 
 div.main01_imagearea{
-	background-color: #E44777;
+	background-color: #C1E2F0;
 	height: 100%;
 	width: 30%;
 	float: left;
 	position: relative;
+}
+
+div.main01_imagearea:before{
+	width: 130%;
+	height: 0;
+	content: '';
+	display: block;
+	position: absolute;
+	border-style: solid;
+	border-width:590px  0 0 150px;
+	border-color:  #E44777 transparent transparent transparent;
+	right: 0;
+}
+
+div.main02_imagearea::before{
+	width: 150%;
+	height: 0;
+	content: '';
+	display: block;
+	position: absolute;
+	border-style: solid;
+	border-width:490px  150px 0 0;
+	border-color:  #F1C674 transparent transparent transparent;
+	left: 0;
 }
 
 div#main02{
@@ -79,11 +100,11 @@ div#main02{
 }
 
 div#main02_title_bottombar01{
-	width: 58%;
+	width: 64%;
 	height: 5px;
 	background-color: #F1C674;
 	display: inline-block;
-	float: left;
+	float: right;
 }
 
 div#main02_title_bottombar02{
@@ -91,7 +112,7 @@ div#main02_title_bottombar02{
 	height: 5px;
 	background-color: #F1C674;
 	display: inline-block;
-	float: left;
+	float: right;
 	margin-left: 5px;
 }
 
@@ -100,13 +121,13 @@ div#main02_title_bottombar03{
 	height: 5px;
 	background-color: #F1C674;
 	display: inline-block;
-	float: left;
+	float: right;
 	margin-left: 5px;
 }
 
 
 div.main02_imagearea{
-	background-color: #F1C674;
+	background-color: #C1E2F0;
 	height: 100%;
 	width: 30%;
 	float: right;
@@ -121,42 +142,43 @@ div.main02_article{
 }
 
 div.main02_title{
-  margin: 50px 0 30px 40px;
+  margin: 50px 30px 30px 40px;
 }
 
 h2.main02_title_text{
 	margin-bottom: 2px;
+	text-align: right;
 }
 
 
 p#main02_text{
-  margin: 10px 0 30px 40px;
+	text-align: right;
+  margin: 10px 30px 30px 0;
 }
 
 div#main02_icon{
-	background-image:url(../images/pro02_icon_bottom.png);
+	background-image:url(../images/pro02_icon_bottom2.png);
+	background-repeat: no-repeat;
 	background-size: contain;
-	width: 100px;
-	height: 100px;
+	width: 320px;
+	height: 410px;
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	right: 0;
-	left: 0;
+	left: 30px;
 	margin: auto;
-
 }
 
 div#main01_icon{
-	background-image:url(../images/pro02_icon_top.png);
+	background-image:url(../images/pro02_icon_top2.png);
+	background-repeat: no-repeat;
 	background-size: contain;
-	width: 100px;
-	height: 100px;
+	width: 280px;
+	height: 450px;
 	position: absolute;
 	top: 0;
 	bottom: 0;
-	right: 0;
-	left: 0;
+	right: 30px;
 	margin: auto;
 }
 
@@ -164,12 +186,48 @@ div#main01_icon{
 
 @media screen and (max-width:425px) {
     /*　画面サイズが425pxまではここを読み込む　*/
+		div.main02_imagearea{
+			background-color: #F1C674;
+		}
+		div.main01_imagearea{
+			background-color: #E44777;
+		}
+		div#main02_icon{
+			background-image:url(../images/pro02_icon_bottom.png);
+			background-size: contain;
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			margin: auto;
+		}
+		div#main01_icon{
+			background-image:url(../images/pro02_icon_top.png);
+			background-size: contain;
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			margin: auto;
+		}
+		div.main01_imagearea::before{
+			display: none;
+		}
+		div.main02_imagearea::before{
+			display: none;
+		}
 
 		div#main01_title_bottombar01{
-			width: 90%;
+			width: 165px;
 		}
 		div#main02_title_bottombar01{
-			width: 90%;
+			width: 110px;
 		}
 		p#intr{
 			font-size: 14px;
@@ -223,15 +281,17 @@ div#main01_icon{
 			margin: 0;
 		}
 		div.main01_title{
-			margin: 30px;
+			margin: 30px auto;
 			text-align: center;
+			width: 200px;
 		}
 		h2.main02_title_text{
 			margin: 0;
 		}
 		div.main02_title{
-			margin: 30px;
+			margin: 30px auto;
 			text-align: center;
+			width: 140px;
 		}
 		span{
 			font-size: 14px;
@@ -241,6 +301,43 @@ div#main01_icon{
 
 @media screen and (min-width:426px) and ( max-width:768px) {
     /*　画面サイズが426pxから768pxまではここを読み込む　*/
+		div.main01_imagearea::before{
+			display: none;
+		}
+		div.main02_imagearea::before{
+			display: none;
+		}
+		div.main02_imagearea{
+			background-color: #F1C674;
+		}
+		div.main01_imagearea{
+			background-color: #E44777;
+		}
+		div#main02_icon{
+			background-image:url(../images/pro02_icon_bottom.png);
+			background-size: contain;
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			margin: auto;
+		}
+
+		div#main01_icon{
+			background-image:url(../images/pro02_icon_top.png);
+			background-size: contain;
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			margin: auto;
+		}
 
 		div#main01_title_bottombar01 {
 			width: 195px;
@@ -287,7 +384,7 @@ div#main01_icon{
 		}
 		div.main02_imagearea{
 			width: 100%;
-			height: 200px;
+			height: 150px;
 		}
 		p#main01_text{
 			padding: 0 20px 20px 20px;

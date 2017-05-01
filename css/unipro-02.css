@@ -45,7 +45,7 @@ div.content01_article{
 }
 
 div.content01_subhead{
-	margin: 30px 0 30px 40px;
+	margin: 40px 0 30px 40px;
 }
 
 h3.content01_subhead_text{
@@ -85,18 +85,40 @@ p#content01_text{
 
 div.content01_imagearea{
   height: 100%;
-  background-color: #FF8FB7;
+  background-color: #FAC7C2;
   width: 30%;
   float: left;
 	position: relative;
 }
-
+div.content01_imagearea::before{
+	width: 130%;
+	height: 0;
+	content: '';
+	display: block;
+	position: absolute;
+	border-style: solid;
+	border-width:560px  0 0 150px;
+	border-color:  #FF8FB7 transparent transparent transparent;
+	right: 0;
+}
 div.content02_imagearea{
-  background-color: #89CBE6;
+  background-color: #FAC7C2;
   width: 30%;
   height: 100%;
   float: right;
 	position: relative;
+}
+
+div.content02_imagearea::before{
+	width: 140%;
+	height: 0;
+	content: '';
+	display: block;
+	position: absolute;
+	border-style: solid;
+	border-width:570px  150px 0 0;
+	border-color:  #89CBE6 transparent transparent transparent;
+	left: 0;
 }
 
 div.content02_article{
@@ -107,21 +129,24 @@ div.content02_article{
 }
 
 div.content02_subhead{
-	margin: 30px 0 30px 40px;
+	margin: 40px 40px 30px 0;
 }
 
 
 h3.content02_subhead_text{
 	margin-bottom: 4px;
 	font-size: 36px;
+	text-align: right;
 }
 
+
+
 div#content02_subhead_bottombar01{
-	width: 90%;
+	width: 66%;
 	height: 5px;
 	background-color: #363535;
 	display: inline-block;
-	float: left;
+	float: right;
 }
 
 div#content02_subhead_bottombar02{
@@ -129,7 +154,7 @@ div#content02_subhead_bottombar02{
 	height: 5px;
 	background-color: #363535;
 	display: inline-block;
-	float: left;
+	float: right;
 	margin-left: 5px;
 }
 
@@ -138,12 +163,13 @@ div#content02_subhead_bottombar03{
 	height: 5px;
 	background-color: #363535;
 	display: inline-block;
-	float: left;
+	float: right;
 	margin-left: 5px;
 }
 
 p#content02_text{
-  margin: 10px 0 30px 40px;
+  margin: 10px 40px 30px 0;
+	text-align: right;
 }
 
 div.content02{
@@ -217,10 +243,12 @@ div.game{
     /*　画面サイズが425pxまではここを読み込む　*/
 
 		div.content01_subhead {
-    margin: 30px;
+		width: 230px;
+    margin: 30px auto;
 		}
 		div.content02_subhead {
-    margin: 30px;
+		width: 220px;
+    margin: 30px auto;
 		}
 		h2.subhead{
 			font-size: 20px;
@@ -290,10 +318,10 @@ div.game{
 			text-align: center;
 		}
 		div#content01_subhead_bottombar01 {
-			width: 90%;
+			width: 86%;
 		}
 		div#content02_subhead_bottombar01 {
-			width: 90%;
+			width: 86%;
 		}
 }
 

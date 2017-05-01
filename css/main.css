@@ -214,6 +214,7 @@ ul#nav_fliner li a {
 nav.navbar {
 	margin-bottom: 0;
 	font-size: 18px;
+	box-shadow: 0 1px 10px grey;
 }
 
 /*旧navsmここから*/
