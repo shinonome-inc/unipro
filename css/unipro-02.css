@@ -281,6 +281,10 @@ div.game{
 			width: 100%;
 			margin-bottom: 20px;
 			height: 200px;
+			background-color: #FF8FB7;
+		}
+		div.content01_imagearea::before{
+			display: none;
 		}
 		div.content02_article{
 			width: 100%;
@@ -290,6 +294,10 @@ div.game{
 			width: 100%;
 			margin-bottom: 20px;
 			height: 180px;
+			background-color: #89CBE6;
+		}
+		div.content02_imagearea::before{
+			display: none;
 		}
 		div#content01_image{
 			height: 60%;
@@ -303,6 +311,7 @@ div.game{
 		}
 		p#content02_text{
 			margin: 20px;
+			text-align: center;
 		}
 		p#content02_text br.br_pc{
 			display: none;
@@ -367,6 +376,10 @@ div.game{
 			margin-bottom: 20px;
 			height: 200px;
 			position: relative;
+			background-color: #FF8FB7;
+		}
+		div.content01_imagearea::before{
+			display: none;
 		}
 		div.content02_article{
 			width: 100%;
@@ -376,6 +389,10 @@ div.game{
 			width: 100%;
 			margin-bottom: 20px;
 			height: 180px;
+			background-color: #89CBE6;
+		}
+		div.content02_imagearea::before{
+			display: none;
 		}
 		div#content01_image{
 			height: 60%;
@@ -389,6 +406,7 @@ div.game{
 		}
 		p#content02_text{
 			margin: 40px 20px 20px 20px;
+			text-align: center;
 		}
 		p#content02_text br.br_pc{
 			display: none;
