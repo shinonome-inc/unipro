@@ -1,4 +1,14 @@
-
+p#about_text02{
+	margin: 0;
+}
+p#care_text{
+	margin: 0;
+}
+div#mark{
+	text-align: center;
+	color: white;
+	padding-bottom: 20px;
+}
 
 div.title_bar_course{
 	background-color: #90B670;
@@ -15,19 +25,35 @@ div#name_wrapper{
 h2#name_title{
   color: rgba(248,248,248,1);
   text-align: center;
-  padding-top: 30px;
+  padding-top: 45px;
 }
 
 p#name_subtitle{
   color: rgba(248,248,248,1);
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 10px;
   margin: 0;
 }
 
 div#about_wrapper{
   background-color: #FEFFD5;
+	position: relative;
 }
+
+div#about_wrapper::before{
+	width: 0;
+	height: 0;
+	border-right: 16px solid transparent;
+	border-left: 16px solid transparent;
+	border-top: 16px solid #50B0D9;
+	content: "";
+	position: absolute;
+	margin: 0 auto;
+	top: 0;
+	left: 50%;
+	margin-left: -16px;
+}
+
 
 p#about_text01{
   text-align: center;
@@ -42,6 +68,21 @@ p#about_text02{
 
 div#course_wrapper{
   background-color: #C3E2EF;
+	position: relative;
+}
+
+div#course_wrapper::before{
+	width: 0;
+	height: 0;
+	border-right: 16px solid transparent;
+	border-left: 16px solid transparent;
+	border-top: 16px solid #FEFFD5;
+	content: "";
+	position: absolute;
+	margin: 0 auto;
+	top: 0;
+	left: 50%;
+	margin-left: -16px;
 }
 
 div#course_icon_a{
@@ -123,7 +164,23 @@ p.intr{
 
 div#care_wrapper{
   background-color: #FEFFD5;
+	position: relative;
 }
+
+div#care_wrapper::before{
+	width: 0;
+	height: 0;
+	border-right: 16px solid transparent;
+	border-left: 16px solid transparent;
+	border-top: 16px solid #C3E2EF;
+	content: "";
+	position: absolute;
+	margin: 0 auto;
+	top: 0;
+	left: 50%;
+	margin-left: -16px;
+}
+
 
 div#care_text_wrapper{
   width: 100%;
@@ -137,6 +194,21 @@ p#care_text{
 
 div#thing_wrapper{
   background-color: #C3E2EF;
+	position: relative;
+}
+
+div#thing_wrapper::before{
+	width: 0;
+	height: 0;
+	border-right: 16px solid transparent;
+	border-left: 16px solid transparent;
+	border-top: 16px solid #FEFFD5;
+	content: "";
+	position: absolute;
+	margin: 0 auto;
+	top: 0;
+	left: 50%;
+	margin-left: -16px;
 }
 
 h4.thing_title{
@@ -316,7 +388,7 @@ div#thing_image_c{
 
 @media screen and (min-width:426px) and ( max-width:768px) {
     /*　画面サイズが426pxから768pxまではここを読み込む　*/
-		
+
 		p.intr{
 			margin-bottom: 20px;
 		}
