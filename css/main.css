@@ -709,6 +709,15 @@ div#menu_diary {
 }
 
 /*pages*/
+span.space_pc{
+	display: inline-block;
+}
+span.space_tablet{
+	display: none;
+}
+span.space_mobile{
+	display: none;
+}
 br.br_pc{
 	display: block;
 }
@@ -986,6 +995,15 @@ p#flow_text04{
 
 @media screen and (max-width:425px) {
     /*　画面サイズが425pxまではここを読み込む　*/
+		span.space_pc{
+			display: none;
+		}
+		span.space_tablet{
+			display: none;
+		}
+		span.space_mobile{
+			display: inline-block;
+		}
 		br.br_pc{
 			display: none;
 		}
@@ -1329,6 +1347,15 @@ p#flow_text04{
 
 @media screen and (min-width:426px) and ( max-width:768px) {
     /*　画面サイズが426pxから768pxまではここを読み込む　*/
+		span.space_pc{
+			display: none;
+		}
+		span.space_tablet{
+			display: inline-block;
+		}
+		span.space_mobile{
+			display: none;
+		}
 		br.br_pc{
 			display: none;
 		}
