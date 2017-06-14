@@ -328,14 +328,17 @@ div#staff_paper_airplane{
 			top: 16%;
 			line-height: 20px;
 			font-size: 12px;
+			text-shadow: 0.6px 0.6px grey;
 		}
 		p.mission span{
 			font-size: 14px;
+			text-shadow: 0.6px 0.6px grey;
 		}
 		p.video_text{
 			top: 52%;
 			font-size: 12px;
 			line-height: 20px;
+			text-shadow: 0.6px 0.6px grey;
 		}
 		div.paper_airplane{
 			width: 10px;
