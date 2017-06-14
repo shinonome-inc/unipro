@@ -36,3 +36,20 @@ $(function(){
   }
   });
 });
+
+$(function(){
+  $('.video_wrap').click(function() {
+    vidplay();
+  });
+
+  function vidplay() {
+    var $video = $('#player');
+    var video = $video.get(0);
+    $video.parent().toggleClass('stop')
+    if (video.paused) {
+      video.play();
+    } else {
+      video.pause();
+    }
+  }
+});
