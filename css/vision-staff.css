@@ -1,0 +1,789 @@
+div.title_bar_access{
+	background-color: #F56151;
+}
+
+div.title_bar_icon_access{
+	background-image: url(../images/menu1.png);
+}
+
+video{
+	width: 100%;
+	margin: 0 auto;
+}
+
+img#sky{
+	width: 100%;
+	margin: 0 auto;
+	height: 545.63px;
+}
+
+div.video-wrap{
+	position: relative;
+	width: 100%;
+	height: 545.63px;
+}
+
+div.video_over{
+	background: rgba(70, 244, 250, 0.62);
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+}
+p.mission{
+	position: absolute;
+	text-align: center;
+	top: 20%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	color: white;
+	z-index: 2;
+	line-height: 50px;
+	font-size: 24px;
+	text-shadow: 0.4px 0.4px grey;
+}
+p.mission span{
+	font-size: 30px;
+	text-shadow: 0.4px 0.4px grey;
+}
+p.video_text{
+	position: absolute;
+	text-align: center;
+	top: 50%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	color: white;
+	z-index: 2;
+	font-size: 24px;
+	line-height: 50px;
+	text-shadow: 0.4px 0.4px grey;
+}
+div.paper_airplane{
+	background-image: url(../images/paper_airplane.png);
+	width: 30px;
+	height: 30px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	top: 40%;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	display: inline-block;
+	margin: auto;
+}
+
+
+div.pm{
+	background-color: white;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	position: relative;
+}
+
+div.pm_icons{
+	position: absolute;
+	background-image: url(../images/pm_icons.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 40%;
+	height: 140px;
+	top: 0;
+	right: 0;
+}
+
+div.subtitle{
+	width: 150px;
+	margin-left: 60px;
+	margin-bottom: 20px;
+}
+div.vision-staff-bottombar{
+	height: 2px;
+	background-color: gray;
+	width: 100%;
+}
+
+div.pm_image_area{
+	width: 55%;
+	height: 450px;
+	float: left;
+	display: inline-block;
+	position: relative;
+}
+
+div.pm_image{
+	width: 90%;
+	height: 350px;
+	position: absolute;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-image: url(../images/pm.JPG);
+	top: 20%;
+}
+
+div.pm_profile{
+	width: 150px;
+	height: 100px;
+	background-color: #FAC7C7;
+	position: absolute;
+	top: 80%;
+  left: 10%;
+	text-align: center;
+	box-shadow: 1px 1px 1px grey;
+}
+div.pm_profile p{
+	font-size: 14px;
+	position: absolute;
+	top: 30%;
+	left: 0;
+	right: 0;
+}
+
+div.pm_text_area{
+	width: 45%;
+	float: left;
+	display: inline-block;
+}
+p.pm_text{
+	width: 85%;
+	font-size: 14px;
+	line-height: 30px;
+}
+
+div.staff{
+	background-color: #A9EEE6;
+	width: 100%;
+	position: relative;
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+div.staff_top_icons{
+	background-image: url(../images/vision_icons01.png);
+	width: 225px;
+	height: 314px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+div.staff_intr_wrap{
+	margin-left: 60px;
+	margin-top: 80px;
+}
+p.staff_intr_first{
+	display: inline-block;
+	float: left;
+	font-size: 24px;
+}
+p.staff_intr_second{
+	display: inline-block;
+	float: left;
+	font-size: 24px;
+}
+div.staff_intr_image{
+	background-image: url(../images/tus_logo.jpg);
+	width: 190px;
+	height: 40px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: inline-block;
+	float: left;
+}
+div.staff_panel{
+	background-color: #FEFAEC;
+}
+div.staff_text_area{
+	width: 45%;
+	display: inline-block;
+	float: left;
+	padding: 40px;
+	padding-left: 10px;
+}
+div#staff01_text_area{
+	float: right;
+	padding-right: 10px;
+	padding-left: 40px;
+}
+p.staff_text_head{
+	color: #E45A5A;
+	margin: 25px 0 8px 0;
+}
+p.staff_text{
+	font-size: 14px;
+	padding-left: 20px;
+}
+div#staff01_image{
+	float: right;
+}
+div.staff_image_area{
+	background-repeat: no-repeat;
+	background-size: contain;
+	display: inline-block;
+	position: relative;
+	float: left;
+}
+div#staff01_image{
+	background-image: url(../images/staff01.png);
+	width: 55%;
+	height: 530px;
+	background-position: right top;
+}
+div#staff02_image{
+	background-image: url(../images/staff02.png);
+	width: 55%;
+	height: 430px;
+	background-position: left top;
+}
+
+div.staff_break01{
+	height: 70px;
+	background-color: #A9EEE6;
+	background-image: url(../images/vision_icons02.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+
+div.staff_break02{
+	height: 100px;
+	background-color: #A9EEE6;
+	background-image: url(../images/vision_icons03.png);
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+
+div.staff_profile{
+	background-color: #FFD98B;
+	width: 130px;
+	height: 130px;
+	position: absolute;
+	border-radius: 100%;
+	box-shadow: 2px 2px 2px grey;
+}
+
+div#staff01_profile{
+	top: 64%;
+  right: 64%;
+}
+div#staff02_profile{
+	top: 58%;
+  left: 72%;
+}
+
+p.staff_profile_text{
+	font-size: 12px;
+	position: absolute;
+	margin: auto;
+	top: 42%;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	vertical-align: top;
+}
+
+div#staff_paper_airplane{
+	top: 20px;
+	width: 25px;
+  height: 25px;
+}
+
+/*Responsive*/
+
+@media screen and (max-width:425px) {
+    /*　画面サイズが425pxまではここを読み込む　*/
+		video{
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		img#sky{
+			width: 100%;
+			margin: 0 auto;
+			height: 180px;
+		}
+
+		div.video-wrap{
+			position: relative;
+			width: 100%;
+			height: 180px;
+		}
+
+		div.video_over{
+			background: rgba(70, 244, 250, 0.62);
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
+		}
+		p.mission{
+			top: 16%;
+			line-height: 20px;
+			font-size: 12px;
+		}
+		p.mission span{
+			font-size: 14px;
+		}
+		p.video_text{
+			top: 52%;
+			font-size: 12px;
+			line-height: 20px;
+		}
+		div.paper_airplane{
+			width: 10px;
+			height: 10px;
+			top: 42%;
+		}
+
+		h2#subtitle{
+			font-size: 18px;
+			margin-bottom: 2px;
+		}
+
+
+		div.pm{
+			width: 100%;
+			padding-top: 20px;
+			padding-bottom: 30px;
+		}
+
+		div.subtitle{
+			width: 90px;
+			margin-left: 40px;
+			margin-bottom: 0px;
+		}
+
+
+		div.pm_icons {
+    position: absolute;
+    background-image: url(../images/pm_icons.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 70px;
+    top: 0;
+    right: 0;
+		}
+
+		div.pm_image_area{
+			width: 100%;
+			height: 260px;
+			position: relative;
+		}
+
+		div.pm_image{
+			width: 90%;
+			height: 216px;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			margin: auto;
+		}
+
+		div.pm_profile{
+			width: 100px;
+			height: 70px;
+			top: 70%;
+		  left: 10%;
+			text-align: center;
+			box-shadow: 1px 1px 1px grey;
+		}
+		div.pm_profile p{
+			font-size: 10px;
+			position: absolute;
+			top: 30%;
+			left: 0;
+			right: 0;
+		}
+
+		div.pm_text_area{
+			width: 100%;
+		}
+		p.pm_text{
+			width: 85%;
+			font-size: 12px;
+			line-height: 24px;
+			margin: 0 auto;
+		}
+
+		div.staff{
+			width: 100%;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+
+		div.staff_top_icons{
+			width: 117px;
+			height: 163px;
+		}
+		div.staff_intr_wrap{
+			margin-left: 40px;
+			margin-top: 30px;
+		}
+		p.staff_intr_first{
+			display: block;
+			float: none;
+			font-size: 12px;
+			margin: 0 0 5px 0;
+		}
+		p.staff_intr_second{
+			display: inline-block;
+			float: left;
+			font-size: 12px;
+		}
+		div.staff_intr_image{
+			background-image: url(../images/tus_logo.jpg);
+			width: 92px;
+			height: 20px;
+			background-size: contain;
+			background-repeat: no-repeat;
+			display: inline-block;
+			float: left;
+		}
+		div.staff_text_area{
+			width: 100%;
+			padding: 20px 20px 20px 20px;
+			float: left;
+		}
+		div#staff01_text_area {
+			padding: 20px 20px 20px 20px;
+		}
+		p.staff_text_head{
+			color: #E45A5A;
+			font-size: 16px;
+		}
+		p.staff_text{
+			font-size: 12px;
+		}
+		div.staff_image_area{
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: contain;
+			display: inline-block;
+			float: left;
+			position: relative;
+		}
+		div#staff01_image{
+			background-image: url(../images/staff01.png);
+			width: 100%;
+			height: 280px;
+			background-position: right top;
+			margin-top: 30px;
+		}
+		div#staff02_image{
+			background-image: url(../images/staff02.png);
+			width: 100%;
+			height: 230px;
+			background-position: left top;
+			margin-top: 30px;
+		}
+
+		div.staff_break01{
+			height: 40px;
+			background-color: #A9EEE6;
+			background-image: url(../images/vision_icons02.png);
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: right;
+		}
+
+		div.staff_break02{
+			height: 50px;
+			background-color: #A9EEE6;
+			background-image: url(../images/vision_icons03.png);
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: right;
+		}
+
+		div.staff_profile{
+			background-color: #FFD98B;
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			border-radius: 100%;
+			box-shadow: 2px 2px 2px grey;
+		}
+
+		div#staff01_profile{
+			top: 64%;
+		  right: 64%;
+		}
+		div#staff02_profile{
+			top: 56%;
+		  left: 66%;
+		}
+
+		p.staff_profile_text{
+			font-size: 10px;
+			position: absolute;
+			margin: auto;
+			top: 42%;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			text-align: center;
+			vertical-align: top;
+		}
+
+		div#staff_paper_airplane{
+			top: 14px;
+			width: 15px;
+		  height: 15px;
+		}
+
+}
+
+@media screen and (min-width:426px) and ( max-width:768px) {
+    /*　画面サイズが426pxから768pxまではここを読み込む　*/
+		video{
+			width: 100%;
+			margin: 0 auto;
+		}
+
+		img#sky{
+			width: 100%;
+			margin: 0 auto;
+			height: 180px;
+		}
+
+		div.video-wrap{
+			position: relative;
+			width: 100%;
+			height: 180px;
+		}
+
+		div.video_over{
+			background: rgba(70, 244, 250, 0.62);
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 0;
+		}
+		p.mission{
+			top: 16%;
+			line-height: 20px;
+			font-size: 12px;
+		}
+		p.mission span{
+			font-size: 14px;
+		}
+		p.video_text{
+			top: 52%;
+			font-size: 12px;
+			line-height: 20px;
+		}
+		div.paper_airplane{
+			width: 10px;
+			height: 10px;
+			top: 42%;
+		}
+
+		h2#subtitle{
+			font-size: 18px;
+			margin-bottom: 2px;
+		}
+
+
+		div.pm{
+			width: 100%;
+			padding-top: 20px;
+			padding-bottom: 30px;
+		}
+
+		div.subtitle{
+			width: 92px;
+			margin-left: 40px;
+			margin-bottom: 0px;
+		}
+
+
+		div.pm_icons {
+    position: absolute;
+    background-image: url(../images/pm_icons.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 200px;
+    height: 70px;
+    top: 0;
+    right: 0;
+		}
+
+		div.pm_image_area{
+			width: 100%;
+			height: 260px;
+			position: relative;
+		}
+
+		div.pm_image{
+			width: 90%;
+			height: 216px;
+			top: 0;
+			bottom: 0;
+			right: 0;
+			left: 40px;
+			margin: auto;
+		}
+
+		div.pm_profile{
+			width: 100px;
+			height: 70px;
+			top: 70%;
+		  left: 10%;
+			text-align: center;
+			box-shadow: 1px 1px 1px grey;
+		}
+		div.pm_profile p{
+			font-size: 10px;
+			position: absolute;
+			top: 30%;
+			left: 0;
+			right: 0;
+		}
+
+		div.pm_text_area{
+			width: 100%;
+		}
+		p.pm_text{
+			width: 85%;
+			font-size: 12px;
+			line-height: 24px;
+			margin: 0 auto;
+		}
+
+		div.staff{
+			width: 100%;
+			padding-top: 20px;
+			padding-bottom: 20px;
+		}
+
+		div.staff_top_icons{
+			width: 117px;
+			height: 163px;
+		}
+		div.staff_intr_wrap{
+			margin-left: 40px;
+			margin-top: 30px;
+		}
+		p.staff_intr_first{
+			display: block;
+			float: none;
+			font-size: 12px;
+			margin: 0 0 5px 0;
+		}
+		p.staff_intr_second{
+			display: inline-block;
+			float: left;
+			font-size: 12px;
+		}
+		div.staff_intr_image{
+			background-image: url(../images/tus_logo.jpg);
+			width: 92px;
+			height: 20px;
+			background-size: contain;
+			background-repeat: no-repeat;
+			display: inline-block;
+			float: left;
+		}
+		div.staff_text_area{
+			width: 100%;
+			padding: 20px 20px 20px 20px;
+			float: left;
+		}
+		div#staff01_text_area {
+			padding: 20px 20px 20px 20px;
+		}
+		p.staff_text_head{
+			color: #E45A5A;
+			font-size: 16px;
+		}
+		p.staff_text{
+			font-size: 12px;
+		}
+		div.staff_image_area{
+			width: 100%;
+			background-repeat: no-repeat;
+			background-size: contain;
+			display: inline-block;
+			float: left;
+			position: relative;
+		}
+		div#staff01_image{
+			background-image: url(../images/staff01.png);
+			width: 100%;
+			height: 280px;
+			background-position: right top;
+			margin-top: 30px;
+		}
+		div#staff02_image{
+			background-image: url(../images/staff02.png);
+			width: 100%;
+			height: 230px;
+			background-position: left top;
+			margin-top: 30px;
+		}
+
+		div.staff_break01{
+			height: 40px;
+			background-color: #A9EEE6;
+			background-image: url(../images/vision_icons02.png);
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: right;
+		}
+
+		div.staff_break02{
+			height: 50px;
+			background-color: #A9EEE6;
+			background-image: url(../images/vision_icons03.png);
+			background-repeat: no-repeat;
+			background-size: contain;
+			background-position: right;
+		}
+
+		div.staff_profile{
+			background-color: #FFD98B;
+			width: 100px;
+			height: 100px;
+			position: absolute;
+			border-radius: 100%;
+			box-shadow: 2px 2px 2px grey;
+		}
+
+		div#staff01_profile{
+			top: 64%;
+		  right: 64%;
+		}
+		div#staff02_profile{
+			top: 56%;
+		  left: 66%;
+		}
+
+		p.staff_profile_text{
+			font-size: 10px;
+			position: absolute;
+			margin: auto;
+			top: 42%;
+			right: 0;
+			left: 0;
+			bottom: 0;
+			text-align: center;
+			vertical-align: top;
+		}
+
+		div#staff_paper_airplane{
+			top: 14px;
+			width: 15px;
+		  height: 15px;
+		}
+
+}
