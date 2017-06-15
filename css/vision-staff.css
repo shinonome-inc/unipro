@@ -1,3 +1,27 @@
+/*仮置きここから（理科大ロゴ）（cz->rm）*/
+span#tus_logo_text{
+	font-size: 34px;
+	color: rgb(61, 138, 53);
+	text-shadow: 1px 1px white;
+	padding-right: 4px;
+}
+
+p.staff_intr_first{
+	margin-bottom: 0;
+}
+@media screen and (max-width:768px) {
+	span#tus_logo_text{
+		font-size: 20px;
+		color: rgb(61, 138, 53);
+		text-shadow: 1px 1px white;
+		padding-right: 2px;
+	}
+	p.staff_intr_first{
+		margin-bottom: 20px;
+	}
+}
+/*仮置きここまで*/
+
 div.title_bar_access{
 	background-color: #F56151;
 }
