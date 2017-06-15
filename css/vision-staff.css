@@ -2,7 +2,7 @@
 span#tus_logo_text{
 	font-size: 34px;
 	color: rgb(61, 138, 53);
-	text-shadow: 1px 1px white;
+	text-shadow: 3px 3px white;
 	padding-right: 4px;
 }
 
@@ -11,13 +11,13 @@ p.staff_intr_first{
 }
 @media screen and (max-width:768px) {
 	span#tus_logo_text{
-		font-size: 20px;
+		font-size: 18px;
 		color: rgb(61, 138, 53);
-		text-shadow: 1px 1px white;
+		text-shadow: 2px 2px white;
 		padding-right: 2px;
 	}
 	p.staff_intr_first{
-		margin-bottom: 20px;
+		margin-bottom: 8px !important;
 	}
 }
 /*仮置きここまで*/
