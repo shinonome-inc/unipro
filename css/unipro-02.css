@@ -259,14 +259,10 @@ div.game{
 		h3.content02_subhead_text{
 			font-size: 18px;
 		}
-		p#intr br.br_pc{
-			display: none;
-		}
 		p#intr{
 			margin: 20px;
 		}
 		p.text{
-			font-size: 12px;
 			line-height: 24px;
 			text-align: center;
 		}
@@ -306,15 +302,9 @@ div.game{
 		p#content01_text{
 			margin: 20px;
 		}
-		p#content01_text br.br_pc{
-			display: none;
-		}
 		p#content02_text{
 			margin: 20px;
 			text-align: center;
-		}
-		p#content02_text br.br_pc{
-			display: none;
 		}
 		div#content02_image{
 			height: 60%;
@@ -347,14 +337,10 @@ div.game{
 			font-size: 24px;
 			margin-top: 40px;
 		}
-		p#intr br.br_pc{
-			display: none;
-		}
 		p#intr{
 			margin: 20px;
 		}
 		p.text{
-			font-size: 16px;
 			line-height: 30px;
 			text-align: center;
 		}
@@ -401,15 +387,9 @@ div.game{
 		p#content01_text{
 			margin: 40px 20px 20px 20px;
 		}
-		p#content01_text br.br_pc{
-			display: none;
-		}
 		p#content02_text{
 			margin: 40px 20px 20px 20px;
 			text-align: center;
-		}
-		p#content02_text br.br_pc{
-			display: none;
 		}
 		div#content02_image{
 			height: 60%;

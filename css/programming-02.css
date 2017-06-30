@@ -233,11 +233,7 @@ div#main01_icon{
 			font-size: 14px;
 		}
 		p.text{
-			font-size: 12px;
 			line-height: 24px;
-		}
-		p.text br.br_pc{
-			display: none;
 		}
 		h2.main01_title_text{
 			font-size: 20px;
@@ -352,11 +348,7 @@ div#main01_icon{
 			font-size: 14px;
 		}
 		p.text{
-			font-size: 16px;
 			line-height: 30px;
-		}
-		p.text br.br_pc{
-			display: none;
 		}
 		h2.main01_title_text{
 			font-size: 24px;

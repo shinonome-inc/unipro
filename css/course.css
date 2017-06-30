@@ -398,14 +398,8 @@ div#thing_image_cd{
 		p#about_text01{
 			font-size: 14px;
 		}
-		p#about_text01 br.br_pc{
-			display: none;
-		}
 		p#about_text02{
 			font-size: 14px;
-		}
-		p#about_text02 br.br_pc{
-			display: none;
 		}
 		p.intr{
 			font-size: 14px;
@@ -494,31 +488,24 @@ div#thing_image_cd{
 			font-size: 24px;
 		}
 		p#about_text01{
-			font-size: 16px;
 			margin: 20px;
 		}
 		p#about_text02{
-			font-size: 16px;
 			margin: 0 20px;
 		}
 		p.intr{
-			font-size: 16px;
 			margin: 20px;
 		}
 		p.course_text{
-			font-size: 16px;
 			margin: 20px;
 			text-align: center;
 			padding-left: 0;
 		}
 		p#care_text{
-			font-size: 16px;
 			margin: 0 20px;
 			width: 390px;
 			text-align: left;
 		}
-		p.thing_text{
-			font-size: 16px;
-		}
+
 
 }

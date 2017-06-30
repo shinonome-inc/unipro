@@ -107,7 +107,6 @@ a.link_line{
     width: 140px;
   }
   p#uni01_text{
-    font-size: 12px;
     line-height: 20px;
   }
 
@@ -115,7 +114,6 @@ a.link_line{
     font-size: 28px;
   }
   p#intr{
-    font-size: 14px;
     margin: 50px 0;
   }
   p#intr span{
@@ -153,11 +151,7 @@ a.link_line{
       font-size: 32px;
     }
     p#uni01_text{
-      font-size: 16px;
       line-height: 26px;
-    }
-    p#intr{
-      font-size: 16px;
     }
     p#intr span{
       font-size: 18px;

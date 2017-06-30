@@ -174,7 +174,6 @@ div.pm_text_area{
 }
 p.pm_text{
 	width: 85%;
-	font-size: 14px;
 	line-height: 30px;
 }
 
@@ -238,7 +237,6 @@ p.staff_text_head{
 	margin: 25px 0 8px 0;
 }
 p.staff_text{
-	font-size: 14px;
 	padding-left: 20px;
 }
 div#staff01_image{
@@ -301,7 +299,6 @@ div#staff02_profile{
 }
 
 p.staff_profile_text{
-	font-size: 12px;
 	position: absolute;
 	margin: auto;
 	top: 42%;
@@ -316,6 +313,15 @@ div#staff_paper_airplane{
 	top: 20px;
 	width: 25px;
   height: 25px;
+}
+p.pm_text{
+	font-size: 14px;
+}
+p.staff_text{
+	font-size: 14px;
+}
+p.staff_profile_text{
+	font-size: 12px;
 }
 
 /*Responsive*/
@@ -351,8 +357,8 @@ div#staff_paper_airplane{
 		p.mission{
 			top: 16%;
 			line-height: 20px;
-			font-size: 12px;
 			text-shadow: 0.6px 0.6px grey;
+			font-size: 12px;
 		}
 		p.mission span{
 			font-size: 14px;
@@ -437,7 +443,6 @@ div#staff_paper_airplane{
 		}
 		p.pm_text{
 			width: 85%;
-			font-size: 12px;
 			line-height: 24px;
 			margin: 0 auto;
 		}
@@ -459,13 +464,12 @@ div#staff_paper_airplane{
 		p.staff_intr_first{
 			display: block;
 			float: none;
-			font-size: 12px;
 			margin: 0 0 5px 0;
+			font-size: 12px;
 		}
 		p.staff_intr_second{
 			display: inline-block;
 			float: left;
-			font-size: 12px;
 		}
 		div.staff_intr_image{
 			background-image: url(../images/tus_logo.jpg);
@@ -487,9 +491,6 @@ div#staff_paper_airplane{
 		p.staff_text_head{
 			color: #E45A5A;
 			font-size: 16px;
-		}
-		p.staff_text{
-			font-size: 12px;
 		}
 		div.staff_image_area{
 			width: 100%;
@@ -567,6 +568,16 @@ div#staff_paper_airplane{
 			width: 15px;
 		  height: 15px;
 		}
+		p.pm_text{
+			font-size: 12px;
+		}
+		p.staff_text{
+			font-size: 12px;
+		}
+		p.staff_profile_text{
+			font-size: 10px;
+		}
+
 
 }
 
@@ -813,5 +824,16 @@ div#staff_paper_airplane{
 			width: 15px;
 		  height: 15px;
 		}
+
+		p.pm_text{
+			font-size: 12px;
+		}
+		p.staff_text{
+			font-size: 12px;
+		}
+		p.staff_profile_text{
+			font-size: 10px;
+		}
+
 
 }

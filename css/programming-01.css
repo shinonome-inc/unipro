@@ -265,15 +265,11 @@ div#icon_navi09{
     /*　画面サイズが425pxまではここを読み込む　*/
 
 		p.text{
-			font-size: 12px;
 			line-height: 24px;
 			text-align: center;
 		}
 		p.text span{
 			font-size: 14px;
-		}
-		p.text br.br_pc{
-			display: none;
 		}
 		div#iconarea04{
 			display: none;
@@ -377,15 +373,11 @@ div#icon_navi09{
     /*　画面サイズが426pxから768pxまではここを読み込む　*/
 
 		p.text{
-			font-size: 16px;
 			line-height: 30px;
 			text-align: center;
 		}
 		p.text span{
 			font-size: 18px;
-		}
-		p.text br.br_pc{
-			display: none;
 		}
 		div#iconarea04{
 			display: none;
