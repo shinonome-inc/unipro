@@ -114,7 +114,7 @@ td ul{
 div.cal_submenu{
 	position: absolute;
 	top: 100%;
-	left: 0;
+	left: -23px;
 	width: 200%;
 	height: 200%;
 	background-color: white;
@@ -288,6 +288,9 @@ div.calendar-container {
 
 @media screen and (max-width:425px) {
     /*　画面サイズが425pxまではここを読み込む　*/
+		div.cal_submenu{
+			left: -27.4px;
+		}
 		td.dup-point-day::before{
 			border-left: 18.5px solid #F56151;
 			border-right: 18.5px solid #3D9EC7;
@@ -344,6 +347,9 @@ div.calendar-container {
 
 @media screen and (min-width:426px) and ( max-width:768px) {
     /*　画面サイズが426pxから768pxまではここを読み込む　*/
+		div.cal_submenu{
+			left: -27.4px;
+		}
 		td.dup-point-day::before{
 			border-left: 18.5px solid #F56151;
 			border-right: 18.5px solid #3D9EC7;
