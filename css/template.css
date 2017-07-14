@@ -278,10 +278,12 @@ div#top_image {
 	left: 0;
 }
 div#top_images_text {
+	background-color: rgba(126, 126, 126, 0.6);
+	padding-left: 50px;
 	position: absolute;
 	bottom: 6vh;
-	left: 60px;
-	width: 550px;
+	left: 80px;
+	width: 100%;
 	margin: 0;
 	color: white;
 	font-size: 58px;
@@ -804,18 +806,24 @@ p#flow_text04{
 			margin-top: 70px;
  		}
  		div#mobile_top_content_intr{
+			font-size: 14px;
  			text-align: center;
  			width: 100%;
- 			height: 15%;
+ 			height: 22%;
  			position: absolute;
  			top: 0;
  			bottom: 120px;
  			left: 0;
  			right: 0;
  			margin: auto;
- 			padding-top: 6px;
+ 			padding-top: 8px;
  			background-color: rgba(255, 255, 255, 0.6);
  		}
+		div#mobile_top_content_intr p{
+			font-size: 8px;
+			margin: 0;
+		}
+
  		div#mobile_top_content_entryarea{
  			background-color: rgba(245, 97, 81, 0.8);
  			position: absolute;
@@ -1114,18 +1122,22 @@ p#flow_text04{
 			margin-top: 70px;
  		}
  		div#mobile_top_content_intr{
+			font-size: 16px;
  			text-align: center;
  			width: 100%;
- 			height: 15%;
+ 			height: 22%;
  			position: absolute;
  			top: 0;
  			bottom: 120px;
  			left: 0;
  			right: 0;
  			margin: auto;
- 			padding-top: 6px;
+ 			padding-top: 8px;
  			background-color: rgba(255, 255, 255, 0.5);
  		}
+		div#mobile_top_content_intr p{
+			font-size: 10px;
+		}
  		div#mobile_top_content_entryarea{
  			background-color: rgba(245, 97, 81, 0.8);
  			position: absolute;
