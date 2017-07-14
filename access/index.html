@@ -25,16 +25,7 @@
 
     <div>
       <header id="header">
-        <div id="container">
-          <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navsm">
-                <span class="sr-only">メニュー</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
+        <div id="pc_header">
             <div class="collapse navbar-collapse limit_wsize">
               <a href="../">
                 <ul id="nav_fline" class="nav navbar-nav">
@@ -48,67 +39,32 @@
                 <li><a href="mailto:contact@shinonome.io"><img height="35" src="../images/Email.png"></a></li>
               </ul>
             </div>
-            <!-- 旧navsmここから -->
-            <!-- <div id="navsm" class="collapse navbar-collapse">
-              <ul class="nav navbar-nav">
-                <li><a href="#summary">ユニプロとは</a></li>
-                <li><a href="#learning">プログラミングとは</a></li>
-                <li><a href="#schedulebox">講座内容</a></li>
-                <li><a href="#detail">アクセス</a></li>
-                <li><a href="#qa">Q &amp; A</a></li>
-                <li><a href="#qa">運営者日記</a></li>
-              </ul>
-            </div> -->
-            <!-- 旧navsmここまで -->
             <!-- new_navsmここから -->
-            <div id="new_navsm">
-
-              <ul id="dropmenu">
-
-                <li id="mainmenu_text01"><a id="mainmenu_text01" href="#">ユニプロとは</a>
-                  <ul id="mainmenu_text01">
-                    <li><a id="submenu_text" href="../unipro-01/">RaspberryPi(ラズベリーパイ)について</a></li>
-                    <li><a id="submenu_text" href="../unipro-02/">Scratch(スクラッチ)とは</a></li>
-                    <li><a id="submenu_text" href="../vision-staff/">ユニプロの理念・運営者について</a></li>
-                  </ul>
+            <div id="top_menu">
+              <ul id="top_menu_items">
+                <li class="top_menu_item" id="top_menu_item1">
+                  <a id="top_menu_text1" href="../vision/">ユニプロについて</a>
                 </li>
-
-                <li id="mainmenu_text02"><a id="mainmenu_text02" href="#">プログラミングとは</a>
-                  <ul id="mainmenu_text02">
-                    <li><a id="submenu_text" href="../programming-01/">プログラマーにならないのにプログラミングって必要？</a></li>
-                    <li><a id="submenu_text" href="../programming-02/">プログラミングって難しいの？お金がかかるの？</a></li>
-                    <li><a id="submenu_text" href="../programming-03/">なぜ今プログラミングが流行っている？</a></li>
-                  </ul>
+                <li class="top_menu_item" id="top_menu_item1">
+                  <a id="top_menu_text2" href="../course/">講座一覧</a>
                 </li>
-
-                <li id="mainmenu_text03"><a id="mainmenu_text03" href="#">講座について</a>
-                  <ul id="mainmenu_text03">
-                    <li><a id="submenu_text" href="../course/">講座内容</a></li>
-                    <li><a id="submenu_text" href="../calendar/">開催カレンダー</a></li>
-
-                  </ul>
+                <li class="top_menu_item" id="top_menu_item1">
+                  <a id="top_menu_text3" href="../calendar/">スケジュール</a>
                 </li>
-
-                <li id="mainmenu_text04"><a id="mainmenu_text04" href="../access/">アクセス</a>
-                  <ul>
-                  </ul>
+                <li class="top_menu_item" id="top_menu_item1">
+                  <a id="top_menu_text4" href="../access/">アクセス</a>
                 </li>
-
-                <li id="mainmenu_text05"><a id="mainmenu_text05" href="../qa/">Q&A</a>
-                  <ul>
-                  </ul>
+                <li class="top_menu_item" id="top_menu_item1">
+                  <a id="top_menu_text5" href="../qa/">Q&A</a>
                 </li>
-
-                <li id="mainmenu_text06"><a id="mainmenu_text06" href="https://www.facebook.com/pg/UniproSchool/">運営者日記</a>
-                  <ul>
-                  </ul>
+                <li class="top_menu_item" id="top_menu_item1">
+                  <a id="top_menu_text6" href="https://www.facebook.com/pg/UniproSchool/">運営者日記</a>
                 </li>
-
               </ul>
 
             </div>
+            </div>
             <!-- new_navsmここまで -->
-          </nav>
           <!-- mobile_headerここから -->
           <div id="mobile_header">
             <a href="../">
@@ -126,16 +82,13 @@
             </a>
           </div>
           <!-- mobile_headerここまで -->
-        </div>
       </header>
-      <div id="top_content_page">
-      </div>
       <div id="top_content_box"></div>
       <div id="content" class="container">
         <div class="limit_wsize">
           <div class="top_bar">
             <div class="pankuzu">
-              <p>top > アクセス</p>
+              <p><a href="../">top</a> > <a href="#">アクセス</a></p>
             </div>
             <div class="triangle_pankuzu">
             </div>
@@ -301,17 +254,9 @@
             <label id="ham_menu_background" for="ham_menu_cb"></label>
             <div id="ham_menu_active">
                 <ul>
-                  <li class="ham_upper_list" id="ham_upper_list_uni"><a href="#">ユニプロとは</a></li>
-                  <li class="ham_lower_list"><a href="../unipro-01/">・Raspberry Pi(ラズベリーパイ)について</a></li>
-                  <li class="ham_lower_list"><a href="../unipro-02/">・Scratch(スクラッチ)とは</a></li>
-                  <li class="ham_lower_list"><a href="../vision-staff/">・ユニプロの理念・運営者について</a></li>
-                  <li class="ham_upper_list" id="ham_upper_list_pro"><a href="#">プログラミングとは</a></li>
-                  <li class="ham_lower_list"><a href="../programming-01/">・プログラマーにならないのにプログラミングって必要？</a></li>
-                  <li class="ham_lower_list"><a href="../programming-02/">・プログラミングって難しいの？お金が掛かるの?</a></li>
-                  <li class="ham_lower_list"><a href="../programming-03/">・なぜ今プログラミングが流行っている？</a></li>
-                  <li class="ham_upper_list" id="ham_upper_list_course"><a href="#">講座について</a></li>
-                  <li class="ham_lower_list"><a href="../course/">・講座内容</a></li>
-                  <li class="ham_lower_list"><a href="../calendar/">・開催カレンダー</a></li>
+                  <li class="ham_upper_list" id="ham_upper_list_uni"><a href="../vision/">ユニプロについて</a></li>
+                  <li class="ham_upper_list" id="ham_upper_list_pro"><a href="../course/">講座について</a></li>
+                  <li class="ham_upper_list" id="ham_upper_list_course"><a href="../calendar/">スケジュール</a></li>
                   <li class="ham_upper_list" id="ham_upper_list_access"><a href="../access/">アクセス</a></li>
                   <li class="ham_upper_list" id="ham_upper_list_qa"><a href="../qa/">Q&A</a></li>
                   <li class="ham_upper_list" id="ham_upper_list_diary"><a href="https://www.facebook.com/pg/UniproSchool/">運営者日記</a></li>
@@ -323,7 +268,20 @@
         </div>
       </div>
       <footer id="footer">
-        Copyright © <br class="br_mobile">2017 UniPro All Rights Reserved.
+        <ul>
+          <li><a href="#">ユニプロについて</a></li>
+          <li><a href="../course/">講座一覧</a>
+            <ul>
+              <li><a href="../course/scratch/">scratch講座</a></li>
+              <li><a class="footer_coming_soon">ラジコン講座</a></li>
+            </ul>
+          </li>
+          <li><a href="../calendar/">スケジュール</a></li>
+          <li><a href="../access/">アクセス</a></li>
+          <li><a href="../qa/">Q&A</a></li>
+          <li><a href="https://www.facebook.com/pg/UniproSchool/">運営者日記</a></li>
+        </ul>
+        <p>Copyright © <br class="br_mobile">2017 UniPro All Rights Reserved.</p>
       </footer>
     </div>
 

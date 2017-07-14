@@ -95,7 +95,7 @@ div#logo #logo_title {
 	width: 40vw;
 	height: 20vw;
 	height: 0px;
-    stroke-dasharray: 3000;
+  stroke-dasharray: 3000;
 }
 
 
@@ -260,6 +260,9 @@ div#menu_diary {
 			border-width: 0 0 30px 30px;
 		}
 		/*panelここまで*/
+    div#news_title{
+    font-size: 20px;
+    }
 
 }
 
@@ -277,4 +280,7 @@ div#menu_diary {
 			border-width: 0 0 30px 30px;
 		}
 		/*panelここまで*/
+    div#news_title{
+    font-size: 24px;
+    }
 }

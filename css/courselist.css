@@ -1,0 +1,119 @@
+div.title_bar_course{
+	background-color: #3D9EC7;
+}
+
+div.title_bar_icon_course{
+	background-image: url(../images/menu2.png);
+}
+
+div.course_lists{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin: 30px 0;
+}
+div.course_list{
+  background-color: white;
+  margin: 10px;
+  height: 540px;
+  box-shadow: 0.4px 0.4px 5px grey;
+  width: 46%;
+  padding: 40px;
+  text-align: center;
+  background-color: #BAEFF3;
+}
+div.course_list p{
+  font-size: 16px;
+  height: 100px;
+  text-align: left;
+	line-height: 26px;
+	padding: 0 10px;
+}
+div.imagearea{
+  width: 100%;
+  height: 160px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain, 50%;
+}
+div#list_scratch_image{
+  background-image: url(../images/scratch.png);
+}
+div#list_rc_image{
+  background-image: url(../images/rc.jpg);
+}
+div.course_list h2{
+  text-align: center;
+  margin: 30px 0;
+  font-size: 28px;
+	font-weight: bold;
+	border-bottom: solid 2px grey;
+	padding-bottom: 10px;
+	color: #F56151;
+	text-shadow: 2px 2px white;
+	font-size: 34px;
+}
+div.course_list a{
+  display: inline-block;
+  background-color: lightpink;
+  padding: 20px 30px;
+  color: white;
+  box-shadow: 1px 1px 10px grey;
+  margin-top: 15px;
+	width: 100%;
+	font-size: 20px;
+}
+div.course_list a.able:hover{
+  background-color: #F56151;
+  transition: 0.2s;
+}
+a.coming_soon{
+  position: relative;
+}
+a.coming_soon::before{
+  display: block;
+  content: "ComingSoon!!";
+  background-color: grey;
+  line-height: 68px;
+  opacity: 0.7;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+@media screen and (max-width:768px) {
+  div.course_lists{
+    flex-direction: column;
+  }
+  div.course_list{
+    width: 88%;
+    margin: 20px auto;
+    height: auto;
+		padding: 20px;
+  }
+  div.course_list p{
+    font-size: 14px;
+    height: auto;
+  }
+  div.course_list h2{
+    font-size: 24px;
+  }
+	div.imagearea{
+	  height: 100px;
+	}
+	div.course_list a{
+	  padding: 12px 30px;
+	  margin-top: 15px;
+		font-size: 14px;
+	}
+	a.coming_soon::before{
+	  line-height: 44px;
+	  opacity: 0.7;
+	  width: 100%;
+	  height: 100%;
+	  position: absolute;
+	  top: 0;
+	  left: 0;
+	}
+}

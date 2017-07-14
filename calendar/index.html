@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>開催カレンダー|ユニプロ</title>
+    <title>スケジュール|ユニプロ</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0">
     <link rel="stylesheet" href="../css/template.css">
     <link rel="stylesheet" href="../css/calendar.css">
@@ -24,16 +24,7 @@
   <body>
     <div>
       <header id="header">
-        <div id="container">
-          <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navsm">
-                <span class="sr-only">メニュー</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            </div>
+        <div id="pc_header">
             <div class="collapse navbar-collapse limit_wsize">
               <a href="../">
                 <ul id="nav_fline" class="nav navbar-nav">
@@ -47,57 +38,32 @@
                 <li><a href="mailto:contact@shinonome.io"><img height="35" src="../images/Email.png"></a></li>
               </ul>
             </div>
-            <!-- 旧navsmここから -->
-            <!-- <div id="navsm" class="collapse navbar-collapse">
-              <ul class="nav navbar-nav">
-                <li><a href="#summary">ユニプロとは</a></li>
-                <li><a href="#learning">プログラミングとは</a></li>
-                <li><a href="#schedulebox">講座内容</a></li>
-                <li><a href="#detail">アクセス</a></li>
-                <li><a href="#qa">Q &amp; A</a></li>
-                <li><a href="#qa">運営者日記</a></li>
-              </ul>
-            </div> -->
-            <!-- 旧navsmここまで -->
             <!-- new_navsmここから -->
-            <div id="new_navsm">
-              <ul id="dropmenu">
-                <li id="mainmenu_text01"><a id="mainmenu_text01" href="#">ユニプロとは</a>
-                  <ul id="mainmenu_text01">
-                    <li><a id="submenu_text" href="../unipro-01/">RaspberryPi(ラズベリーパイ)について</a></li>
-                    <li><a id="submenu_text" href="../unipro-02/">Scratch(スクラッチ)とは</a></li>
-                    <li><a id="submenu_text" href="../vision-staff/">ユニプロの理念・運営者について</a></li>
-                  </ul>
+            <div id="top_menu">
+              <ul id="top_menu_items">
+                <li class="top_menu_item" id="top_menu_item1">
+                  <a id="top_menu_text1" href="../vision/">ユニプロについて</a>
                 </li>
-                <li id="mainmenu_text02"><a id="mainmenu_text02" href="#">プログラミングとは</a>
-                  <ul id="mainmenu_text02">
-                    <li><a id="submenu_text" href="../programming-01/">プログラマーにならないのにプログラミングって必要？</a></li>
-                    <li><a id="submenu_text" href="../programming-02/">プログラミングって難しいの？お金がかかるの？</a></li>
-                    <li><a id="submenu_text" href="../programming-03/">なぜ今プログラミングが流行っている？</a></li>
-                  </ul>
+                <li class="top_menu_item" id="top_menu_item1">
+                  <a id="top_menu_text2" href="../course/">講座一覧</a>
                 </li>
-                <li id="mainmenu_text03"><a id="mainmenu_text03" href="#">講座について</a>
-                  <ul id="mainmenu_text03">
-                    <li><a id="submenu_text" href="../course/">講座内容</a></li>
-                    <li><a id="submenu_text" href="../calendar/">開催カレンダー</a></li>
-                  </ul>
+                <li class="top_menu_item" id="top_menu_item1">
+                  <a id="top_menu_text3" href="../calendar/">スケジュール</a>
                 </li>
-                <li id="mainmenu_text04"><a id="mainmenu_text04" href="../access/">アクセス</a>
-                  <ul>
-                  </ul>
+                <li class="top_menu_item" id="top_menu_item1">
+                  <a id="top_menu_text4" href="../access/">アクセス</a>
                 </li>
-                <li id="mainmenu_text05"><a id="mainmenu_text05" href="../qa/">Q&A</a>
-                  <ul>
-                  </ul>
+                <li class="top_menu_item" id="top_menu_item1">
+                  <a id="top_menu_text5" href="../qa/">Q&A</a>
                 </li>
-                <li id="mainmenu_text06"><a id="mainmenu_text06" href="https://www.facebook.com/pg/UniproSchool/">運営者日記</a>
-                  <ul>
-                  </ul>
+                <li class="top_menu_item" id="top_menu_item1">
+                  <a id="top_menu_text6" href="https://www.facebook.com/pg/UniproSchool/">運営者日記</a>
                 </li>
               </ul>
+
+            </div>
             </div>
             <!-- new_navsmここまで -->
-          </nav>
           <!-- mobile_headerここから -->
           <div id="mobile_header">
             <a href="../">
@@ -115,16 +81,13 @@
             </a>
           </div>
           <!-- mobile_headerここまで -->
-        </div>
       </header>
-      <div id="top_content_page">
-      </div>
       <div id="top_content_box"></div>
       <div id="content" class="container">
         <div class="limit_wsize">
           <div class="top_bar">
             <div class="pankuzu">
-              <p>top > 講座について > 開催カレンダー</p>
+              <p><a href="../">top</a> > <a href="#">スケジュール</a></p>
             </div>
             <div class="triangle_pankuzu">
             </div>
@@ -134,7 +97,7 @@
               <div class="title_bar_icon title_bar_icon_cal">
               </div>
               <h1 class="title_bar_text" id="title_bar_font-size16">
-                開催カレンダー
+                スケジュール
               </h1>
             </div>
           </div>
@@ -143,17 +106,24 @@
               <div class="cal_box01">
               </div>
             </div>
-            <p id="cal_care">…プログラミング教室開催日<br class="br_mobile">（ご予約受付中！）</p>
+            <p id="cal_care">…スクラッチ講座開催日<br class="br_mobile">（ご予約受付中！）</p>
+          </div>
+          <div class="cal_intr">
+            <div class="cal_boxarea">
+              <div class="cal_box03">
+              </div>
+            </div>
+            <p id="cal_care">…保護者説明会開催日<br class="br_mobile">（ご予約受付中！）</p>
           </div>
           <div class="cal_intr">
             <div class="cal_boxarea">
               <div class="cal_box02">
               </div>
             </div>
-            <p id="cal_care">…プログラミング教室開催日<br class="br_mobile">(ご予約受付終了いたしました)</p>
+            <p id="cal_care">…ご予約受付終了いたしました</p>
           </div>
           <div class="row">
-            <div class="calendar-container col-xs-12 col-sm-6" id="april">
+            <!-- <div class="calendar-container col-xs-12 col-sm-6" id="april">
               <div class="month_name">
                 <p class="month_name_text">4月</p>
               </div>
@@ -228,7 +198,7 @@
                 </tbody>
               </table>
             </div> <!-- end calendar-container -->
-            <div class="calendar-container col-xs-12 col-sm-6" id="may">
+            <!-- <div class="calendar-container col-xs-12 col-sm-6" id="may">
               <div class="month_name">
                 <p class="month_name_text">5月</p>
               </div>
@@ -419,16 +389,20 @@
                     <td>12</td>
                     <td>13</td>
                     <td>14</td>
-                    <td class="point-day">15
+                    <td class="point-day dup-point-day">
+                      <span>15</span>
                       <div class="cal_submenu">
-                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68029">午前</a>
-                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68030">午後</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68029">scratch講座午前</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68030">scratch講座午後</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=84461">保護者説明講座</a>
                       </div>
                     </td>
-                    <td class="point-day">16
+                    <td class="point-day  dup-point-day">
+                      <span>16</span>
                       <div class="cal_submenu">
-                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68031">午前</a>
-                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68032">午後</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68031">scratch講座午前</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68032">scratch講座午後</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=84461">保護者説明講座</a>
                       </div>
                     </td>
                   </tr>
@@ -439,10 +413,11 @@
                     <td>20</td>
                     <td>21</td>
                     <td>22</td>
-                    <td class="point-day">23
+                    <td class="point-day">
+                      <span>23</span>
                       <div class="cal_submenu">
-                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68033">午前</a>
-                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68034">午後</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68033">scratch講座午前</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68034">scratch講座午後</a>
                       </div>
                     </td>
                   </tr>
@@ -491,16 +466,19 @@
                     <td>2</td>
                     <td>3</td>
                     <td>4</td>
-                    <td class="point-day">5
+                    <td class="point-day dup-point-day">
+                      <span>5</span>
                       <div class="cal_submenu">
-                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68035">午前</a>
-                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68036">午後</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68035">scratch講座午前</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68036">scratch講座午後</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=84462">保護者説明講座</a>
                       </div>
                     </td>
-                    <td class="point-day">6
+                    <td class="point-day">
+                      <span>6</span>
                       <div class="cal_submenu">
-                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68037">午前</a>
-                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68038">午後</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68037">scratch講座午前</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68038">scratch講座午後</a>
                       </div>
                     </td>
                   </tr>
@@ -528,16 +506,19 @@
                     <td>23</td>
                     <td>24</td>
                     <td>25</td>
-                    <td class="point-day">26
+                    <td class="point-day dup-point-day">
+                      <span>26</span>
                       <div class="cal_submenu">
-                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68039">午前</a>
-                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68040">午後</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68039">scratch講座午前</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68040">scratch講座午後</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=84462">保護者説明講座</a>
                       </div>
                     </td>
-                    <td class="point-day">27
+                    <td class="point-day">
+                      <span>27</span>
                       <div class="cal_submenu">
-                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68041">午前</a>
-                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68042">午後</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68041">scratch講座午前</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68042">scratch講座午後</a>
                       </div>
                     </td>
                   </tr>
@@ -586,10 +567,11 @@
                     <td>7</td>
                     <td>8</td>
                     <td>9</td>
-                    <td class="point-day">10
+                    <td class="point-day">
+                      <span>10</span>
                       <div class="cal_submenu">
-                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68043">午前</a>
-                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68044">午後</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68043">scratch講座午前</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68044">scratch講座午後</a>
                       </div>
                     </td>
                   </tr>
@@ -609,10 +591,11 @@
                     <td>21</td>
                     <td>22</td>
                     <td>23</td>
-                    <td class="point-day">24
+                    <td class="point-day">
+                      <span>24</span>
                       <div class="cal_submenu">
-                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68045">午前</a>
-                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68046">午後</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68045">scratch講座午前</a>
+                        <a href="https://web.my-class.jp/manabi-tus/asp-webapp/web/WWebKozaShosaiNyuryoku.do?kozaId=68046">scratch講座午後</a>
                       </div>
                     </td>
                   </tr>
@@ -707,28 +690,34 @@
             <label id="ham_menu_background" for="ham_menu_cb"></label>
             <div id="ham_menu_active">
                 <ul>
-                  <li class="ham_upper_list" id="ham_upper_list_uni"><a href="#">ユニプロとは</a></li>
-                  <li class="ham_lower_list"><a href="../unipro-01/">・Raspberry Pi(ラズベリーパイ)について</a></li>
-                  <li class="ham_lower_list"><a href="../unipro-02/">・Scratch(スクラッチ)とは</a></li>
-                  <li class="ham_lower_list"><a href="../vision-staff/">・ユニプロの理念・運営者について</a></li>
-                  <li class="ham_upper_list" id="ham_upper_list_pro"><a href="#">プログラミングとは</a></li>
-                  <li class="ham_lower_list"><a href="../programming-01/">・プログラマーにならないのにプログラミングって必要？</a></li>
-                  <li class="ham_lower_list"><a href="../programming-02/">・プログラミングって難しいの？お金が掛かるの?</a></li>
-                  <li class="ham_lower_list"><a href="../programming-03/">・なぜ今プログラミングが流行っている？</a></li>
-                  <li class="ham_upper_list" id="ham_upper_list_course"><a href="#">講座について</a></li>
-                  <li class="ham_lower_list"><a href="../course/">・講座内容</a></li>
-                  <li class="ham_lower_list"><a href="../calendar/">・開催カレンダー</a></li>
+                  <li class="ham_upper_list" id="ham_upper_list_uni"><a href="../vision/">ユニプロについて</a></li>
+                  <li class="ham_upper_list" id="ham_upper_list_pro"><a href="../course/">講座について</a></li>
+                  <li class="ham_upper_list" id="ham_upper_list_course"><a href="../calendar/">スケジュール</a></li>
                   <li class="ham_upper_list" id="ham_upper_list_access"><a href="../access/">アクセス</a></li>
                   <li class="ham_upper_list" id="ham_upper_list_qa"><a href="../qa/">Q&A</a></li>
                   <li class="ham_upper_list" id="ham_upper_list_diary"><a href="https://www.facebook.com/pg/UniproSchool/">運営者日記</a></li>
                 </ul>
             </div>
           </div>
+          </div>
           <!-- ハンバーガーメニューここまで -->
         </div>
       </div>
       <footer id="footer">
-        Copyright © <br class="br_mobile">2017 UniPro All Rights Reserved.
+        <ul>
+          <li><a href="#">ユニプロについて</a></li>
+          <li><a href="../course/">講座一覧</a>
+            <ul>
+              <li><a href="../course/scratch/">scratch講座</a></li>
+              <li><a class="footer_coming_soon">ラジコン講座</a></li>
+            </ul>
+          </li>
+          <li><a href="../calendar/">スケジュール</a></li>
+          <li><a href="../access/">アクセス</a></li>
+          <li><a href="../qa/">Q&A</a></li>
+          <li><a href="https://www.facebook.com/pg/UniproSchool/">運営者日記</a></li>
+        </ul>
+        <p>Copyright © <br class="br_mobile">2017 UniPro All Rights Reserved.</p>
       </footer>
     </div>
   </body>

@@ -115,24 +115,100 @@ div.cal_submenu{
 	position: absolute;
 	top: 100%;
 	left: 0;
-	width: 120%;
-	height: 160%;
-	background-color: #EA7C70;
+	width: 200%;
+	height: 200%;
+	background-color: white;
 	z-index: 2;
 	display: none;
-
 }
 
 .cal_submenu > a{
 	display: block;
 	text-decoration: none;
-	margin-top: 5px;
+	font-size: 10px;
+	height: 50%;
+	line-height: 34px;
+	display: inline-block;
+	width: 100%;
+	text-align: center;
+	outline: none;
+	position: relative;
+	z-index: 2;
+	transition: all .3s;
+	background-color: white;
+}
+.cal_submenu > a:nth-of-type(3)::before,.cal_submenu > a:nth-of-type(3)::after{
+	background-color: skyblue;
+}
+.cal_submenu > a::before,.cal_submenu > a::after{
+	width: 50%;
+	height: 100%;
+	top: 0;
+	position: absolute;
+	display: block;
+	content: "";
+	z-index: -1;
+	transition: all .3s;
+	background-color: pink;
+}
+.cal_submenu > a::before{
+	left: 0;
+}
+.cal_submenu > a::after{
+	right: 0;
+}
+.cal_submenu > a:hover::before, .cal_submenu > a:hover::after{
+	width: 0;
 }
 
+.cal_submenu > a:hover{
+	border: 3px solid #F56151;
+}
+.cal_submenu > a:nth-last-of-type(1):hover{
+	border: 3px solid #3D9EC7;
+}
 td.point-day:hover div.cal_submenu{
 	display: block;
-	color: #e7e7e7;
+	transition: 1s;
 }
+
+td.point-day:hover span{
+	font-size: 24px;
+	color: white;
+	transition: .3s;
+}
+td.dup-point-day::before{
+	content: "";
+	display: block;
+	background-color: blue;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	width: 0;
+	height: 0;
+	border-top: 17px solid #F56151;
+	border-bottom: 17px solid #3D9EC7;
+	border-left: 23px solid #F56151;
+	border-right: 23px solid #3D9EC7;
+	margin: auto;
+}
+td:before{
+	box-sizing: border-box;
+}
+td.point-day span{
+	font-size: 14px;
+	display: block;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	line-height: 34px;
+}
+
+
 
 #september{
 	margin-bottom: 50px;
@@ -176,7 +252,16 @@ div.cal_box02{
 	bottom: 0;
 	margin: auto;
 }
-
+div.cal_box03{
+	display: inline-block;
+	width: 32px;
+	height: 28px;
+	background-color: #3D9EC7;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+}
 div.cal_intr p{
 	width: 95%;
 	margin: 0;
@@ -197,10 +282,19 @@ div.calendar-container {
  position: relative;
 　}
 
+
+
 /*Responsive*/
 
 @media screen and (max-width:425px) {
     /*　画面サイズが425pxまではここを読み込む　*/
+		td.dup-point-day::before{
+			border-left: 18.5px solid #F56151;
+			border-right: 18.5px solid #3D9EC7;
+		}
+		div.cal_submenu{
+			width: 240%;
+		}
 		div.cal_boxarea {
 			width: 15%;
 		}
@@ -250,6 +344,13 @@ div.calendar-container {
 
 @media screen and (min-width:426px) and ( max-width:768px) {
     /*　画面サイズが426pxから768pxまではここを読み込む　*/
+		td.dup-point-day::before{
+			border-left: 18.5px solid #F56151;
+			border-right: 18.5px solid #3D9EC7;
+		}
+		div.cal_submenu{
+			width: 240%;
+		}
 		div.cal_boxarea {
 			width: 15%;
 		}
