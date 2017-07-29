@@ -484,9 +484,6 @@ footer > ul{
 footer a{
 	color: grey;
 }
-footer a.footer_coming_soon:hover{
-	color: grey;
-}
 footer > ul > li{
 	width: 12%;
 	text-align: left;

@@ -67,7 +67,7 @@ div.course_list a.able:hover{
   background-color: #F56151;
   transition: 0.2s;
 }
-a.coming_soon{
+/*a.coming_soon{
   position: relative;
 }
 a.coming_soon::before{
@@ -81,7 +81,7 @@ a.coming_soon::before{
   position: absolute;
   top: 0;
   left: 0;
-}
+}*/
 @media screen and (max-width:768px) {
   div.course_lists{
     flex-direction: column;
@@ -107,7 +107,7 @@ a.coming_soon::before{
 	  margin-top: 15px;
 		font-size: 14px;
 	}
-	a.coming_soon::before{
+	/*a.coming_soon::before{
 	  line-height: 44px;
 	  opacity: 0.7;
 	  width: 100%;
@@ -115,5 +115,5 @@ a.coming_soon::before{
 	  position: absolute;
 	  top: 0;
 	  left: 0;
-	}
+	}*/
 }
