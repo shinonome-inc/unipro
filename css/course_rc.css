@@ -72,8 +72,25 @@ p#about_text01{
 p#about_text02{
   line-height: 30px;
   text-align: left;
-	display: inline-block;
-	margin-top: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 40px
+}
+
+a#link-deco{
+	text-decoration: underline;
+}
+div#rc-map{
+	width: 100%;
+}
+
+#rc-map{
+	text-align: center;
+	padding-top: 20px;
+}
+
+#rc-map-image{
+	width: 100%;
 }
 
 div#course_wrapper{
