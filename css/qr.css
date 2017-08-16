@@ -1,0 +1,134 @@
+
+body#qr{
+	font-family: "noto","游ゴシック" !important;
+}
+ 
+
+body#qr .container{
+	margin: 0;
+	padding-top: 84px;
+	background-color: #fff;
+	text-align: center;
+	height: 100vh;
+	box-sizing: border-box;
+}
+
+body#qr h1{
+	font-size: 3rem;
+}
+
+body#qr p{
+	font-size: 1.4rem;
+	color: #999999;
+}
+
+body#qr p.description{
+	margin-bottom: 2rem;
+}
+
+img.qr{
+	width: 16vw;
+	border: 1px solid ;
+}
+
+.line-flex-area{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 8rem;
+	padding-top: 1rem;
+}
+
+.line-flex-area .item{
+	width: 20vw;
+	margin: 0 2rem;
+	padding: 0 3rem;
+	border-radius: 10px;
+	border: 1px solid ;
+}
+
+.line-flex-area .img-area{
+	height: 270px;
+	position: relative;
+	border-radius: 10px 10px 0 0 ;
+}
+
+.line-flex-area img{
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+	width: 100%;
+}
+
+.line-flex-area .item-text{
+	height: 80px;
+	background-color: #fff;
+	font-size: 1.4rem;
+	padding: 0 2rem; 
+	border-radius: 0 0 10px 10px;
+}
+
+footer{
+	border-top: solid 4px grey ;
+}
+
+@media screen and (max-width:768px) {
+	#landing_mobile_header {
+    	display: block;
+	}
+
+	img.qr {
+	    width: 48vw;
+	}
+	.line-flex-area{
+		flex-direction: column;
+		margin-bottom: 4rem;
+		padding-top: 0;
+	}
+
+	.line-flex-area .item{
+		width: 80vw;
+		margin-top: 2rem;
+		margin-bottom: 2rem;
+		padding-top: 2rem;
+		padding-bottom: 2rem; 
+	}
+
+	.line-flex-area .img-area{
+		height: auto;
+		position: static;
+		border-radius: 10px 10px 0 0 ;
+	}
+
+	.line-flex-area img{
+		position: static;
+		top: 0;
+		right: 0;
+		left: 0;
+		bottom: 0;
+		margin: auto;
+		width: 100%;
+	}
+
+	.line-flex-area .item-text {
+	    height: auto;
+	    text-align: left;
+	    padding: 1rem 0 0 0; 
+	}
+
+	body#qr .container{
+		margin: 0;
+		padding-top: 104px;
+		background-color: #fff;
+		text-align: center;
+		height: auto;
+		box-sizing: border-box;
+	}
+
+	.fa-arrow-right{
+		transform: rotate(90deg);
+	}
+}
