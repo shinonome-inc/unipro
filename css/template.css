@@ -6,7 +6,7 @@
 	font-family: "logotypejp-b";
 	src: url('../font/logotypejp_mp_b_1.1.ttf') format('OpenType');
 }
-@font-face {
+/*@font-face {
 	font-family: "noto";
 	src: url('../font/NotoSansCJKjp-Regular.otf') format('OpenType');
 }
@@ -22,7 +22,7 @@
 	font-family: "noto-bold";
 	src: url('../font/NotoSansCJKjp-Bold.otf') format('OpenType');
 }
-
+*/
 
 /*テキスト共通＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝ー*/
 
