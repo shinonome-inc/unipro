@@ -177,18 +177,6 @@ div.course_icon{
 	height: 120px;
 }
 
-div.course_icon_wrapper{
-  /*width: 50%;
-  position: relative;
-  margin: 0 auto;*/
-}
-
-div.course_icon_wrapper:before{
-  /*content: "";
-  padding-top: 100%;
-  display: block;*/
-}
-
 div.course_iconarea{
 	width: 20%;
 	height: 100%;
@@ -487,8 +475,6 @@ div#thing_image_cd{
 	#course_b .table-striped>tbody>tr>th{
 		display: none;
 	}
-
-
 
 }
 
